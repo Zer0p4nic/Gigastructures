@@ -694,7 +694,7 @@
   giga_vanilla_shipyard_u:0 "£menu_u£§MMega Astillero§!"
   giga_vanilla_shipyard_disabled:0 "£menu_disabled£§RMega Astillero§!"
   
-  giga_vanilla_ringworld_1:99 "£menu_1£§HRingworld§!"
+  giga_vanilla_ringworld_1:99 "£menu_1£§HMundo Anillo§!"
   giga_vanilla_ringworld_2:0 "£menu_2£§YAnillo del mundo§!"
   giga_vanilla_ringworld_3:0 "£menu_3£§GAnillo del mundo§!"
   giga_vanilla_ringworld_r:0 "£menu_r£§BAnillo del mundo§!"
@@ -1058,8 +1058,8 @@
   giga_galactic_fed_active:0 "£menu_o£Federación Galáctica (Garantizada)\nDetermina si la Federación Galáctica debería formarse al construir $name_quasistellar$."
   giga_galactic_fed_shuffle:0 "£menu_s£Federación Galáctica (Aleatorio)\nDetermina si la Federación Galáctica debería formarse al construir $name_quasistellar$."
   
-  giga_dyson_scaling_disabled:0 "£menu_disabled£Escalado del Esfera de Dyson\nSi las Esferas de Dyson escalan en coste y producción basado en su estrella anfitriona."
-  giga_dyson_scaling_enabled:0 "£menu_enabled£Escalado del  Esfera de Dyson\nSi las Esferas de Dyson escalan en coste y producción basado en su estrella anfitriona."
+  giga_dyson_scaling_disabled:0 "£menu_disabled£Escalado de la Esfera de Dyson\nSi las Esferas de Dyson escalan en coste y producción basado en su estrella anfitriona."
+  giga_dyson_scaling_enabled:0 "£menu_enabled£Escalado de la  Esfera de Dyson\nSi las Esferas de Dyson escalan en coste y producción basado en su estrella anfitriona."
   
   giga_matroishka_scaling_disabled:0 "£menu_disabled£Escalado del Cerebro Matrioshka\nSi los Cerebros Matrioshka escalan en coste y producción basado en su estrella anfitriona."
   giga_matroishka_scaling_enabled:0 "£menu_enabled£Escalado del  Cerebro Matrioshka\nSi los Cerebros Matrioshka escalan en coste y producción basado en su estrella anfitriona."
@@ -1070,8 +1070,8 @@
   giga_dyson_swarm_replace_enabled:0 "£menu_enabled£Ruta de Construcción para la Esfera Dyson\nPara construir una Esfera Dyson hay que construir primero un Enjambre Dyson."
   giga_dyson_swarm_replace_disabled:0 "£menu_disabled£Ruta de Construcción para la Esfera Dyson\nPara construir una Esfera Dyson hay que construir primero un Enjambre Dyson."
 
-  giga_influence_upkeep_disabled:0 "£menu_disabled£Mantenimiento con Influencia de Megaestructura\nSi el mantenimiento de influencia de megaestructura debe estar habilitado o no."
-  giga_influence_upkeep_enabled:0 "£menu_enabled£Mantenimiento con Influencia de Megaestructura\nSi el mantenimiento de influencia de megaestructura debe estar habilitado o no."
+  giga_influence_upkeep_disabled:0 "£menu_disabled£Mantenimiento con Influencia de Megaestructura\nSi el mantenimiento con influencia de megaestructura debe estar habilitado o no."
+  giga_influence_upkeep_enabled:0 "£menu_enabled£Mantenimiento con Influencia de Megaestructura\nSi el mantenimiento con influencia de megaestructura debe estar habilitado o no."
   
   giga_buildcap_1:0 "£menu_1£Límite de Construcción Simultánea (§H1§!)\n\nDetermina cuántas megaestructuras puedes construir al mismo tiempo.\n\nEsta opción establece el límite en §Y1§!, que es el §Ycomportamiento de vainilla§! y puede ser aumentado por modificadores como el Ascenso de Maestros Constructores."
   giga_buildcap_2:0 "£menu_2£Límite de Construcción Simultánea (§Y2§!)\n\nDetermina cuántas megaestructuras puedes construir al mismo tiempo.\n\nEsta opción establece el límite en §Y2§!, que puede ser aumentado aún más por modificadores como el Ascenso de Maestros Constructores."
@@ -1092,7 +1092,7 @@
   giga_menu_compound_s:0 "£menu_s£$ehof_the_compound$\nAleatorio"
   giga_menu_compound_disabled:0 "£menu_enabled£$ehof_the_compound$\n$ehof_the_compound$ aparecerá después de una crisis de fin de juego si se construyen EHOFs."
   
-  giga_menu_compound_enabled:0 "£menu_disabled£$ehof_the_compound$\n$ehof_the_compound$ no aparecerá.\n\n§R''Esta crisis está desactualizada y sus mecánicas son molestas para jugar contra. Será reestructurada eventualmente pero hasta entonces juega bajo tu propio riesgo.'' - Megumin§!"
+  giga_menu_compound_enabled:0 "£menu_disabled£$ehof_the_compound$\n$ehof_the_compound$ no aparecerá.\n\n§R''Esta crisis está desactualizada y sus mecánicas son muy molestas como para jugar contra ella. Será reestructurada eventualmente pero hasta entonces juega bajo tu propio riesgo.'' - Megumin§!"
   
   giga_menu_ehof_ai_1:0 "£menu_1£EHOF AI\nDetermina si la IA construye el EHOF."
   giga_menu_ehof_ai_2:0 "£menu_2£EHOF AI\nDetermina si la IA construye el EHOF."
@@ -18165,7 +18165,7 @@
   megastructure:99 "debug"
   must_have_user_preset_mod:99 "debug"
   
-  gigaLabel_01:0 "§EPulsa CONFIRMAR CONFIG para jugar con las opciones elegidas§!"
+  gigaLabel_01:0 "§ECONFIRMAR CONFIG para jugar con las opciones elegidas§!"
   gigaLabel_02:0 "§ESolo se pueden limitar Megaestructuras al inicio del juego.§!"
   gigaLabel_03:0 "§EIlimitar MegasEst causa un desequilibrio grave en el juego.§!"
   gigaLabel_04:0 "§EEs posible seleccionar un Preajuste y luego personalizarlo.§!"
