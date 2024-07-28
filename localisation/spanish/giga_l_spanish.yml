@@ -694,7 +694,7 @@
   giga_vanilla_shipyard_u:0 "£menu_u£§MMega Astillero§!"
   giga_vanilla_shipyard_disabled:0 "£menu_disabled£§RMega Astillero§!"
   
-  giga_vanilla_ringworld_1:99 "£menu_1£§HMundo Anillo§!"
+  giga_vanilla_ringworld_1:0 "£menu_1£§HMundo Anillo§!"
   giga_vanilla_ringworld_2:0 "£menu_2£§YAnillo del mundo§!"
   giga_vanilla_ringworld_3:0 "£menu_3£§GAnillo del mundo§!"
   giga_vanilla_ringworld_r:0 "£menu_r£§BAnillo del mundo§!"
