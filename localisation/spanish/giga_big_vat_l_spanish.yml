@@ -27,7 +27,7 @@
   
   the_vat_0:0 "Emplazamiento de $gc_mega$$name_the_vat$"
   the_vat_0_DESC:0 "El Emplazamiento para un futuro vat, conteniendo todo lo que nuestros ingenieros y biólogos necesitarán para convertir esto en una instalación de clonación gigantesca."
-  the_vat_0_MEGASTRUCTURE_DETAILS:0 "£galwonders£ $giga_list_category_megastructure$ - $giga_list_category_ship_production$\nUsa £food£ para crear §YBiological Warships§! basados en conocidos §YLeviatanes§! y §YAlienígenas Nacidos del Espacio§!\n§LEl Vat de Crecimiento Biológico Impetuoso es una instalación de clonación espacial capaz de producir grandes cantidades de naves espaciales biológicas.§!" #gigalistentry BIG VAT
+  the_vat_0_MEGASTRUCTURE_DETAILS:0 "£galwonders£ $giga_list_category_megastructure$ - $giga_list_category_ship_production$\nUsa £food£ para crear §YNaves de Guerra Biológicas§! basados en conocidos §YLeviatanes§! y §YAlienígenas Nacidos del Espacio§!\n§LEl Vat de Crecimiento Biológico Impetuoso es una instalación de clonación espacial capaz de producir grandes cantidades de naves espaciales biológicas.§!" #gigalistentry BIG VAT
   
   the_vat_1:0 "$name_the_vat$: Vat Primario"
   the_vat_1_DESC:0 "Este será el vat de clonación más grande de su tipo, capaz de crear numerosos clones masivos."
@@ -42,7 +42,7 @@
   the_vat_4_DESC:0 "Este es el vat de clonación más grande de su tipo, capaz de crear numerosos clones masivos. Con 6 vats auxiliares y un vat primario gargantuan, esta instalación está completamente lista para clonar flotas enteras de abominaciones gigantes."
   
   the_vat_menu_title:0 "§EVat de Crecimiento Biológico Impetuoso§!"
-  the_vat_menu_desc:99 "---------------------------------------------------------------\nThe §cB.I.G. Vat§! is a biological shipyard. Each vat can only grow one organic ship at a time.\nCloned space fauna will be of §B$common$§! rarity and must be upgraded at a starbase to gain rarity bonuses."
+  the_vat_menu_desc:0 "---------------------------------------------------------------\nEl §cB.I.G. Vat§! es un astillero biológico. Cada tanque solo puede desarrollar una nave orgánica a la vez.\nLa fauna espacial clonada será de rareza §B$common$§! y debe ser mejorada en una base estelar para obtener bonificaciones de rareza."
   
   
   the_vat_menu_01:0 "§HVat Primario§!"
@@ -69,23 +69,23 @@
   VAT_TIME_06:99 "£resource_time£ [this.giga_vat_06_time_left]"
   VAT_TIME_07:99 "£resource_time£ [this.giga_vat_07_time_left]"
   
-  giga_requires_tiyanki_dna:99 "$TRIGGER_FAIL$Requires §YTiyanki§! $c_dna$"
-  giga_requires_space_amoeba_dna:99 "$TRIGGER_FAIL$Requires §YSpace Amoeba§! $c_dna$"
-  giga_requires_voidworm_dna:99 "$TRIGGER_FAIL$Requires §YVoidworm§! $c_dna$"
-  giga_requires_cutholoid_dna:99 "$TRIGGER_FAIL$Requires §YCutholoid§! $c_dna$"
-  giga_requires_crystal_dna:99 "$TRIGGER_FAIL$Requires §Y$crystalline_entity$§! $c_dna$"
+  giga_requires_tiyanki_dna:0 "$TRIGGER_FAIL$Requiere §YTiyanki§! $c_dna$"
+  giga_requires_space_amoeba_dna:0 "$TRIGGER_FAIL$Requiere §YAmeba Espacial§! $c_dna$"
+  giga_requires_voidworm_dna:0 "$TRIGGER_FAIL$Requiere §YGusano del Vacío§! $c_dna$"
+  giga_requires_cutholoid_dna:0 "$TRIGGER_FAIL$Requiere §YCthuloide§! $c_dna$"
+  giga_requires_crystal_dna:0 "$TRIGGER_FAIL$Requiere §Y$crystalline_entity$§! $c_dna$"
   
-  giga_requires_leviathan_slain_ether_drake:99 "$TRIGGER_FAIL$Requires having killed an §Y$space_dragon_red$§! previously."
+  giga_requires_leviathan_slain_ether_drake:0 "$TRIGGER_FAIL$Requiere haber matado a un §Y$space_dragon_red$§! previamente."
   
   giga_requires_leviathan_slain_wraith:0 "$TRIGGER_FAIL$Requiere haber matado a un $giga_wraith$ previamente."
   
-  giga_requires_leviathan_slain_tiyanki_matriarch:99 "$TRIGGER_FAIL$Requires having killed a §Y$leviathan_01_elder_tiyanki$§! previously."
+  giga_requires_leviathan_slain_tiyanki_matriarch:0 "$TRIGGER_FAIL$Requiere haber matado a un §Y$leviathan_01_elder_tiyanki$§! previamente."
   
-  giga_requires_leviathan_slain_stellarite_devourer:99 "$TRIGGER_FAIL$Requires having killed a §Y$stellarite$§! previously."
+  giga_requires_leviathan_slain_stellarite_devourer:0 "$TRIGGER_FAIL$Requiere haber matado a un §Y$stellarite$§! previamente."
   
   giga_requires_leviathan_slain_voidspawn:0 "$TRIGGER_FAIL$Requiere haber matado a un $giga_voidspawn$ previamente."
   
-  giga_requires_leviathan_slain_toxic_god:99 "$TRIGGER_FAIL$Requires having killed a §Y$toxic_god$§! previously."
+  giga_requires_leviathan_slain_toxic_god:0 "$TRIGGER_FAIL$Requiere haber matado a un §Y$toxic_god$§! previamente."
   giga_requires_vat_4:0 "$TRIGGER_FAIL$Requiere un $name_the_vat$ totalmente actualizado."
   giga_requires_no_live_god:0 "$TRIGGER_FAIL$No puede tener más de un §Y$giga_toxic_god$§!!"
   
@@ -117,13 +117,13 @@
   NAME_Giga_Deity:0 "Dios Tóxico Clonado"
   NAME_Giga_Amoeba:0 "Ameba Clonada"
   NAME_Giga_Tiyanki_Small:0 "Buey Tiyanki Clonado"
-  NAME_Giga_Crystal:99 "Cloned $crystalline_entity_plural$"
-  NAME_Giga_Voidworm:99 "Cloned $voidworms_plural$"
-  NAME_Giga_Cutholoid:99 "Cloned $cutholoids_plural$"
+  NAME_Giga_Crystal:0 "$crystalline_entity_plural$ Clonados"
+  NAME_Giga_Voidworm:0 "$voidworms_plural$ Clonados"
+  NAME_Giga_Cutholoid:0 "$cutholoids_plural$ Clonados"
   
-  giga_vat_switch_fauna:99 "Swap to Space Fauna"
-  giga_vat_switch_scourge:99 "Swap to Scourge"
-  giga_vat_switch_leviathan:99 "Swap to Leviathans"
+  giga_vat_switch_fauna:0 "Cambiar a Fauna Espacial"
+  giga_vat_switch_scourge:0 "Cambio a Azotes"
+  giga_vat_switch_leviathan:0 "Cambiar a Leviatanes"
   
   giga_vat_switch_01:99 "[giga_vat_switch_01]"
   giga_vat_switch_02:99 "[giga_vat_switch_02]"
@@ -133,67 +133,67 @@
   giga_vat_switch_06:99 "[giga_vat_switch_06]"
   giga_vat_switch_07:99 "[giga_vat_switch_07]"
   
-  giga_maximum_mutation_title:99 "§cMaximum Mutation§!"
-  giga_maximum_mutation_desc:99 "In pursuit of our genetic destiny all possible avenues must be considered, as strange and esoteric as they may seem."
+  giga_maximum_mutation_title:0 "§cMutación Máxima§!"
+  giga_maximum_mutation_desc:0 "En la búsqueda de nuestro destino genético, todas las avenidas posibles deben ser consideradas, por extrañas y esotéricas que parezcan."
   
-  giga_prethoryn_larvae:99 "Mutated Larva"
-  giga_prethoryn_larvae_desc_short:99 "A small wriggling larva. Grows extremely quick. Could be crushed underfoot"
+  giga_prethoryn_larvae:0 "Larva Mutada"
+  giga_prethoryn_larvae_desc_short:0 "Una pequeña larva retorciéndose. Crecimiento extremadamente rápido. Podría ser aplastada bajo los pies."
   giga_prethoryn_larvae_desc_details:99 ""
   
-  giga_vat_maximum_mutation_1:99 "Maximum Mutation: Inceptus"
-  giga_vat_maximum_mutation_2:99 "Maximum Mutation: Virulus"
-  giga_vat_maximum_mutation_3:99 "Maximum Mutation: Aureus"
-  giga_vat_maximum_mutation_4:99 "Maximum Mutation: Exaltus"
-  giga_vat_maximum_mutation_1_DESC:99 "The inception is of great importance, defining how our mutations will progress. Only time can tell if this project will bear fruit as much as its benefactors say."
-  giga_vat_maximum_mutation_2_DESC:99 "The next steps, just as important as the first. how can one have a palace for not it's foundation build many times high."
-  giga_vat_maximum_mutation_3_DESC:99 "With any project revisions and review must be done. How may we improve upon our design? What flaws can we minimize? Now is the time for our specimens to ascend to perfection."
-  giga_vat_maximum_mutation_4_DESC:99 "The capstone completes any great work, lest it crumble under its own weight. "
+  giga_vat_maximum_mutation_1:0 "Mutación Máxima: Inceptus"
+  giga_vat_maximum_mutation_2:0 "Mutación Máxima: Virulus"
+  giga_vat_maximum_mutation_3:0 "Mutación Máxima: Aureus"
+  giga_vat_maximum_mutation_4:0 "Mutación Máxima: Exaltus"
+  giga_vat_maximum_mutation_1_DESC:0 "El inicio es de gran importancia, definiendo cómo progresarán nuestras mutaciones. Solo el tiempo dirá si este proyecto dará frutos como sus benefactores dicen."
+  giga_vat_maximum_mutation_2_DESC:0 "Los siguientes pasos son tan importantes como el primero. ¿Cómo puede uno tener un palacio sin una base sólida?"
+  giga_vat_maximum_mutation_3_DESC:0 "Con cualquier proyecto, las revisiones y revisiones deben hacerse. ¿Cómo podemos mejorar nuestro diseño? ¿Qué defectos podemos minimizar? Ahora es el momento para que nuestros especímenes asciendan a la perfección."
+  giga_vat_maximum_mutation_4_DESC:0 "La piedra angular completa cualquier gran obra, no sea que se derrumbe bajo su propio peso."
   
-  giga_vat_events.100.name:99 "Maximizing Mutation"
-  giga_vat_events.100.desc:99 "With access to such a vast and efficient array of cloning devices our scientists have devised a quite peculiar idea. What would come of combining and mutating every sample of genetic material our empire has ever collected, no matter what it may be. As bizarre as the idea is, it may lead to some advances in biology and perhaps the creatures this project conceives may have applications on the stage of galactic war."
-  giga_vat_events.100.a:99 "What could possibly go wrong?"
+  giga_vat_events.100.name:0 "Maximizando la Mutación"
+  giga_vat_events.100.desc:0 "Con acceso a una amplia y eficiente gama de dispositivos de clonación, nuestros científicos han ideado una idea bastante peculiar. ¿Qué resultaría de combinar y mutar cada muestra de material genético que nuestro imperio ha recolectado, sin importar lo que sea? Aunque la idea es extraña, podría llevar a avances en biología y quizás las criaturas que conciba este proyecto tengan aplicaciones en el escenario de la guerra galáctica."
+  giga_vat_events.100.a:0 "¿Qué podría salir mal?"
   
-  giga_vat_events.101.name:99 "Inceptus"
-  giga_vat_events.101.desc:99 "With promising initial results, scientists on [capital.GetName] prepare for larger scale experiments. With the extensive laboratories of the $name_the_vat$, they aim to procure a specimen the size of a corvette. Whether it performs below or above the capabilities of a corvette remain to be seen."
+  giga_vat_events.101.name:0 "Inceptus"
+  giga_vat_events.101.desc:0 "Con resultados iniciales prometedores, los científicos en [capital.GetName] se preparan para experimentos a mayor escala. Con los extensos laboratorios de $name_the_vat$, buscan obtener un espécimen del tamaño de una corbeta. Si sus capacidades estarán por debajo o por encima de las de una corbeta, está por verse."
   giga_vat_events.101.a:99 "$INTRIGUING$"
   
-  giga_vat_events.1011.name:99 "Inceptus Conception"
-  giga_vat_events.1011.desc:99 "We watched it grow. Watched it feed. Through all of it, anger, fear, frustration. We don't know how we knew its feelings. It was so gargantuan, but still so small, still scared of us. It could crush us or melt us in an instant. Why was it scared? Scared of what we would do to it if it attacked us? Or scared of what would create next."
+  giga_vat_events.1011.name:0 "Concepción de Inceptus"
+  giga_vat_events.1011.desc:0 "Lo vimos crecer. Lo vimos alimentarse. A través de todo ello, ira, miedo, frustración. No sabíamos cómo conocíamos sus sentimientos. Era tan gigantesco, pero aún tan pequeño, todavía asustado de nosotros. Podría aplastarnos o derretirnos en un instante. ¿Por qué estaba asustado? ¿Asustado de lo que le haríamos si nos atacaba? ¿O asustado de lo que crearíamos después?"
   giga_vat_events.1011.a:99 "$DISCONCERTING$"
   
-  giga_vat_events.102.name:99 "Virulus"
-  giga_vat_events.102.desc:99 "Following the success of Inceptus, chief scientists are proposing an even larger experiment, that the size of a destroyer. While many in the team have their reservations, the go-ahead was given and progress began on mutating even further."
+  giga_vat_events.102.name:0 "Virulus"
+  giga_vat_events.102.desc:0 "Tras el éxito de Inceptus, los científicos principales proponen un experimento aún mayor, del tamaño de un destructor. Aunque muchos en el equipo tienen reservas, se dio luz verde y comenzó el progreso para mutar aún más."
   giga_vat_events.102.a:99 "$GOOD$"
   
-  giga_vat_events.1021.name:99 "A Virulent Force"
-  giga_vat_events.1021.desc:99 "Rage. All emotion second to the concoction of violence and anger. It thrashed against its restraints which kept it from rending the station apart. Days it thrashed, was its rage unending? All the while we sensed changes in our smaller specimens, similar feelings of anger mixed with fear. They seem to share a link, something greater than a simple familial bond, like they were parts of a larger organism."
+  giga_vat_events.1021.name:0 "Una Fuerza Virulenta"
+  giga_vat_events.1021.desc:0 "Ira. Toda emoción secundaria a la mezcla de violencia y enojo. Se agitaba contra sus restricciones que le impedían destrozar la estación. Días se agitó, ¿era su ira interminable? Mientras tanto, sentíamos cambios en nuestros especímenes más pequeños, sentimientos similares de ira mezclada con miedo. Parecen compartir un vínculo, algo más grande que un simple lazo familiar, como si fueran partes de un organismo mayor."
   giga_vat_events.1021.a:99 "$DISTURBING$"
   
-  giga_vat_events.103.name:99 "Aureus"
-  giga_vat_events.103.desc:99 "Since the project's beginning our admirals and other military staff have expressed great interest in this project. They request a specimen with almost carrier like capabilities. Many scientist stationed on the $name_the_vat$ have either resigned or refuse to work, but a select few press onward in pursuit of perfection."
+  giga_vat_events.103.name:0 "Aureus"
+  giga_vat_events.103.desc:0 "Desde el inicio del proyecto, nuestros almirantes y otros miembros del personal militar han mostrado gran interés en este proyecto. Solicitan un espécimen con capacidades casi de portaaviones. Muchos científicos en $name_the_vat$ han renunciado o se niegan a trabajar, pero unos pocos selectos continúan en busca de la perfección."
   giga_vat_events.103.a:99 "$INCREDIBLE$"
   
-  giga_vat_events.1031.name:99 "Biological Ascension"
-  giga_vat_events.1031.desc:99 "Rage again. Monumental compared to before. The thrashing was stronger too. One day it all came to a stop. Only one feeling was felt that day. Obedience. They had done it, they had controlled this unruly creature they had created. It had submitted, and along with it all the other specimens. No more rage or fear or frustration. Obedience shone through. The organism has accepted us."
+  giga_vat_events.1031.name:0 "Ascensión Biológica"
+  giga_vat_events.1031.desc:0 "Ira de nuevo. Monumental comparada con antes. La agitación también era más fuerte. Un día todo se detuvo. Solo un sentimiento se sintió ese día. Obediencia. Lo habían logrado, habían controlado a esta criatura indómita que habían creado. Se había sometido, y con ella todos los demás especímenes. No más ira, miedo o frustración. La obediencia brillaba. El organismo nos ha aceptado."
   giga_vat_events.1031.a:99 "$ASTOUNDING$"
   
-  giga_vat_events.104.name:99 "Exaltus"
-  giga_vat_events.104.desc:99 "We had achieved perfection, but what if we go further? After achieving greatness, could there be more? Some on the team say why not reach as high as possible. If it is successful final step in evolution may be realized."
+  giga_vat_events.104.name:0 "Exaltus"
+  giga_vat_events.104.desc:0 "Habíamos alcanzado la perfección, pero ¿y si vamos más allá? Después de alcanzar la grandeza, ¿podría haber más? Algunos en el equipo dicen, ¿por qué no llegar tan alto como sea posible? Si tiene éxito, el paso final en la evolución podría realizarse."
   giga_vat_events.104.a:99 "$UNDERSTOOD$"
   
-  giga_vat_events.1041.name:99 "Mutation Maximized"
-  giga_vat_events.1041.desc:99 "The ultimate lifeform, our beautiful specimens, finally created and realized before us. Their strength shall make our enemies think twice before challenging us in the galactic stage. We have gained something unique from this project. Our specimens and us have this connection. Our minds and theirs intertwined as a single entity. If a force like this were let lose upon a galaxy there is no telling what could happen. Throughout the program there were some escape attempts by our specimens. Thankfully all were eliminated. Though there were those few that escaped and headed towards intergalactic space. Surely they won't cause any trouble."
-  giga_vat_events.1041.a:99 "Surely..."
+  giga_vat_events.1041.name:0 "Mutación Maximizada"
+  giga_vat_events.1041.desc:0 "La forma de vida definitiva, nuestros hermosos especímenes, finalmente creados y realizados ante nosotros. Su fuerza hará que nuestros enemigos lo piensen dos veces antes de desafiarnos en el escenario galáctico. Hemos ganado algo único de este proyecto. Nuestros especímenes y nosotros tenemos esta conexión. Nuestras mentes y las suyas entrelazadas como una sola entidad. Si una fuerza como esta se liberara en una galaxia, no hay forma de saber qué podría pasar. A lo largo del programa hubo algunos intentos de escape por parte de nuestros especímenes. Afortunadamente, todos fueron eliminados. Aunque hubo unos pocos que escaparon y se dirigieron hacia el espacio intergaláctico. Seguramente no causarán problemas."
+  giga_vat_events.1041.a:0 "Seguramente..."
   
-  giga_requires_maximum_mutation_1:99 "$TRIGGER_FAIL$Requires completing §Y$giga_vat_maximum_mutation_1$§!"
-  giga_requires_maximum_mutation_2:99 "$TRIGGER_FAIL$Requires completing §Y$giga_vat_maximum_mutation_2$§!"
-  giga_requires_maximum_mutation_3:99 "$TRIGGER_FAIL$Requires completing §Y$giga_vat_maximum_mutation_3$§!"
-  giga_requires_maximum_mutation_4:99 "$TRIGGER_FAIL$Requires completing §Y$giga_vat_maximum_mutation_4$§!"
+  giga_requires_maximum_mutation_1:0 "$TRIGGER_FAIL$Requiere completar §Y$giga_vat_maximum_mutation_1$§!"
+  giga_requires_maximum_mutation_2:0 "$TRIGGER_FAIL$Requiere completar §Y$giga_vat_maximum_mutation_2$§!"
+  giga_requires_maximum_mutation_3:0 "$TRIGGER_FAIL$Requiere completar §Y$giga_vat_maximum_mutation_3$§!"
+  giga_requires_maximum_mutation_4:0 "$TRIGGER_FAIL$Requiere completar §Y$giga_vat_maximum_mutation_4$§!"
   
-  giga_vat_unlocked_brood_mothers:99 "§Y$large_ship_carrier_swarm_plural$§! can now be cloned at the $name_the_vat$"
-  giga_vat_unlocked_swarm_queen:99 "§Y$queen_swarm_plural$§! can now be cloned at the $name_the_vat$"
-  giga_vat_unlocked_swarmlings:99 "§Y$small_ship_swarm_plural$§! can now be cloned at the $name_the_vat$"
-  giga_vat_unlocked_warriors:99 "§Y$large_ship_swarm_plural$§! can now be cloned at the $name_the_vat$"
+  giga_vat_unlocked_brood_mothers:0 "§Y$large_ship_carrier_swarm_plural$§! ahora pueden ser clonados en $name_the_vat$"
+  giga_vat_unlocked_swarm_queen:0 "§Y$queen_swarm_plural$§! ahora pueden ser clonados en $name_the_vat$"
+  giga_vat_unlocked_swarmlings:0 "§Y$small_ship_swarm_plural$§! ahora pueden ser clonados en $name_the_vat$"
+  giga_vat_unlocked_warriors:0 "§Y$large_ship_swarm_plural$§! ahora pueden ser clonados en $name_the_vat$"
   
-  giga_big_vat_modifier_not_machine:99 "Advanced Cloning Methods"
-  giga_big_vat_modifier_machine:99 "Advanced Assembly Methods"
+  giga_big_vat_modifier_not_machine:0 "Métodos Avanzados de Clonación"
+  giga_big_vat_modifier_machine:0 "Métodos Avanzados de Ensamblaje"

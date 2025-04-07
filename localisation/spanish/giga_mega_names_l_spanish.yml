@@ -26,8 +26,8 @@
   fusion_suppressor_6:0 "Colapsar Estrella en Agujero Negro"
   fusion_suppressor_6_DESC:0 "La materia de la estrella ahora se ha colapsado hasta tal punto que ni siquiera la luz puede escapar del tirón gravitacional del cuerpo, transformándola efectivamente en un Agujero Negro artificial, que posee un increíble potencial de investigación."
   
-  fusion_suppressor_6b:99 "Detonate Star"
-  fusion_suppressor_6b_DESC:0 "Ordena al $name_fusion_suppressor$ que libere el campo gravitatorio y ejerza una fuerza repulsiva, haciendo que la estrella comprimida detone en una supernova devastadora, destruyendo el $name_fusion_suppressor$. Cualquier planeta menor de 5, así como los asteroides, serán destruidos, y los gigantes gaseosos serán despojados de su atmósfera. Los planetas supervivientes obtendrán depósitos de Iodizium, que son cristales generados por la supernova artificial al chocar contra los planetas a velocidades relativistas. Estos cristales pueden utilizarse para construir potentes edificios en nuestros planetas."
+  fusion_suppressor_6b:0 "Detonar Estrella"
+  fusion_suppressor_6b_DESC:0 "Ordena al $name_fusion_suppressor$ que libere el campo gravitacional y ejerza una fuerza repulsiva, provocando que la estrella comprimida detone en una devastadora supernova, destruyendo al $name_fusion_suppressor$. Cualquier planeta más pequeño que 5, así como los asteroides, serán destruidos, y los gigantes gaseosos perderán su atmósfera. Los planetas sobrevivientes obtendrán depósitos de Iodizium, que son cristales generados por la supernova artificial al impactar planetas a velocidades relativistas. Estos cristales pueden usarse para construir edificios poderosos en nuestros planetas.
   
   fusion_suppressor_7:0 "Desmantelar $name_fusion_suppressor$"
   fusion_suppressor_7_DESC:0 "Eliminar este $name_fusion_suppressor$, haciendo su Agujero Negro utilizable para otros proyectos."
@@ -264,7 +264,7 @@
   ########################################
   ############## STRIPMINE ###############
   ########################################
-  sr_mega_extra_data:99 "Will §Yreveal§! and §Yamplify§! deposits of strategic resources, and §Yamplify§! (but not create) deposits of regular resources."
+  sr_mega_extra_data:0 "Revelará §Ydepósitos§! y §Yamplificará§! depósitos de recursos estratégicos, y §Yamplificará§! (pero no creará) depósitos de recursos comunes."
   
   automated_stripmine_0:0 "Emplazamiento $gc_mega$$name_auto_stripmine$"
   automated_stripmine_0_DESC:0 "El Emplazamiento para un futuro $name_auto_stripmine$. Contiene todo lo necesario para construir el aparato de minería orbital así como las fábricas en el planeta."
@@ -326,15 +326,15 @@
   orbital_artificial_eco_3_DESC:0 "Un $name_orbital_artificial_eco$ completo, lleno de especies importadas, así como fabricadas gracias a la ingeniería genética. Este ecosistema único puede ser modelado y deformado por nuestros científicos a voluntad para estudiar cómo funciona la naturaleza."
   
   orbital_artificial_eco_ruined:0 "Ruinas de $name_orbital_artificial_eco$"
-  orbital_artificial_eco_ruined_DESC:0 "Un $name_orbital_artificial_eco$ en ruinas. Solía albergar una gran cantidad de especies bioingenierizadas dentro de entornos controlados, pero ya no. Podría ser posible restaurarlo dado las tecnologías adecuadas."
+  orbital_artificial_eco_ruined_DESC:0 "Un $name_orbital_artificial_eco$ en ruinas. Solía albergar una gran cantidad de especies bioingenierizadas dentro de entornos controlados, pero ya no. Podría ser posible restaurarlo con las tecnologías adecuadas."
   orbital_artificial_eco_ruined_MEGASTRUCTURE_DETAILS:99 "$orbital_artificial_eco_ruined_DESC$"
   
   orbital_artificial_eco_restored:99 "$name_orbital_artificial_eco$"
   orbital_artificial_eco_restored_DESC:99 "$orbital_artificial_eco_3_DESC$"
   
-  giga_dialog.1003.name:99 "Ruined $name_orbital_artificial_eco$"
-  giga_dialog.1003.desc:99 "A ruined $name_orbital_artificial_eco$ has been spotted orbiting a Gas Giant in the [from.GetName] system. It appears to have sustained large amounts of damage, yet the outer frame is still somewhat intact. Our scientists believe it might be feasible to repair it if we possess the proper technologies."
-  giga_dialog.1003.a:99 "Interesting."
+  giga_dialog.1003.name:0 "Ruina de $name_orbital_artificial_eco$"
+  giga_dialog.1003.desc:0 "Una ruina de $name_orbital_artificial_eco$ ha sido avistada orbitando un gigante gaseoso en el sistema [from.GetName]. Parece haber sufrido una gran cantidad de daños, pero el marco exterior todavía está algo intacto. Nuestros científicos creen que podría ser posible repararlo si poseemos las tecnologías adecuadas."
+  giga_dialog.1003.a:0 "Interesante."
   #########################################
   ### Macroengineering Test Site ##########
   #########################################

@@ -31,7 +31,7 @@
   #To the Blokkonstrukt
   
   #To intergalactic space - you pop out near the GIF
-  giga_blokkat.3343.name:99 "Dauntless Escape"
+  giga_blokkat.3343.name:0 "Escape Intrépido"
   giga_blokkat.3343.desc:0 "Con prisa intentamos alejarnos de la ubicación central y en su lugar gastamos lo último de las capacidades de la Aguja corriendo a través del Blokkwork hacia los flujos de energía que se descargan en el espacio intergaláctico. Unos momentos antes de que la Aguja fuera prácticamente aniquilada, emergemos de la sartén metafórica... y entramos en un fuego.\n\n¡Somos escupidos en una batalla espacial de proporciones gigantescas en el vacío intergaláctico! Una inmensa flota de Blokkat capaz de volar nuestra galaxia mil veces, compuesta por decenas de miles de naves mucho más grandes que cualquier cosa que hayamos encontrado, está luchando con otra flota compuesta por naves elegantes desconocidas alimentadas por una especie de singularidad en su centro.\n\nY, de alguna manera, parece que estamos causando un impacto. La flota de Blokkat se detiene durante unos preciosos nanosegundos mientras procesa nuestra nave saliendo de su propia red de energía. Esto les da a sus desconocidos oponentes un valioso tiempo para disparar una andanada que rompe el espacio-tiempo, sobrecargando las naves de Blokkat y haciendo que algunas de ellas exploten con furia inédita mientras otras se retiran a las profundidades del espacio.\n\nA medida que los Blokkats desaparecen de la detección, las naves elegantes se vuelven hacia nosotros y parecen procesar algo durante un rato, hasta que recibimos una transmisión que proviene de una de ellas. ¡Nos están saludando!"
   giga_blokkat.3343.a:0 "En... pantalla."
   
@@ -706,28 +706,28 @@
   weapon_type_harvester:0 "Cosechadora"
   
   #Anime
-  giga_blokkat.10030.name:99 "The Blokkats"
-  giga_blokkat.10030.desc:99 "§G<<ANALYZING POTENTIAL OF CIVILIZATION: [ROOT.GetName]>>§!\n\n§R<<ERROR! ERROR!>>\n\n<<TECHNOLOGICAL POTENTIAL: IMPOSSIBLY HIGH - SURPASSING BLOKKATS AND LYUINITA>>\n\n<<ENERGY PRODUCTION CAPABILITIES: BEYOND KNOWN SCIENCE - ENTROPY REVERSAL AND MAJOR THERMODYNAMICS VIOLATION>>\n\n<<WEAPONRY: UNFATHOMABLY POWERFUL - TRIVIALIZED HYPERDIMENSIONALITY AND NONSENSICAL DESIGNS>>§!\n\nStunning.\n\nAbsolutely stunning. We thought our knowledge of the universe unparalleled and our technologies unrivalled - and yet here we are. Your powers and abilities are beyond all known Blokkat science, beyond what should be mathematically possible for a civilization of your size.\n\nHow?\n\nWe must know.\n\n§G<<CROSS-REFERENCING TECHNOLOGICAL FEATS: SOURCE FOUND>>§!\n\n§G<<DESIGNATION: ANIME>>§!\n\n§G<<ANALYZING ANIME>§!\n\n§G<<UNDERSTANDING... ANIME>>§!\n\nAnime.\n\nIs that it? Is that the ultimate power, the ultimate energy? The key to infinite energy and grandiose power beyond imagination? Anime... anime.\n\nWe must adapt or face extinction.\n\nWe will adapt."
-  giga_blokkat.10030.a:99 "What?"
+  giga_blokkat.10030.name:0 "Los Blokkats"
+  giga_blokkat.10030.desc:0 "§G<<ANALIZANDO POTENCIAL DE CIVILIZACIÓN: [ROOT.GetName]>>§!\n\n§R<<¡ERROR! ¡ERROR!>>\n\n<<POTENCIAL TECNOLÓGICO: IMPOSIBLEMENTE ALTO - SUPERANDO A BLOKKATS Y LYUINITA>>\n\n<<CAPACIDADES DE PRODUCCIÓN DE ENERGÍA: MÁS ALLÁ DE LA CIENCIA CONOCIDA - REVERSIÓN DE ENTROPÍA Y VIOLACIÓN MAYOR DE LA TERMODINÁMICA>>\n\n<<ARMAMENTO: INCOMPRENSIBLEMENTE PODEROSO - HIPERDIMENSIONALIDAD TRIVIALIZADA Y DISEÑOS ABSURDOS>>§!\n\nImpresionante.\n\nAbsolutamente impresionante. Pensábamos que nuestro conocimiento del universo era insuperable y nuestras tecnologías inigualables, y sin embargo, aquí estamos. Sus poderes y habilidades están más allá de toda la ciencia conocida de los Blokkat, más allá de lo que debería ser matemáticamente posible para una civilización de su tamaño.\n\n¿Cómo?\n\nDebemos saber.\n\n§G<<REFERENCIAS CRUZADAS DE LOGROS TECNOLÓGICOS: FUENTE ENCONTRADA>>§!\n\n§G<<DESIGNACIÓN: ANIME>>§!\n\n§G<<ANALIZANDO ANIME>>§!\n\n§G<<ENTENDIENDO... ANIME>>§!\n\nAnime.\n\n¿Es eso? ¿Es ese el poder definitivo, la energía definitiva? ¿La clave para la energía infinita y el poder grandioso más allá de la imaginación? Anime... anime.\n\nDebemos adaptarnos o enfrentar la extinción.\n\nNos adaptaremos."
+  giga_blokkat.10030.a:0 "¿Qué?"
   
-  giga_blokkat.10031.name:99 "Blokkats Stall"
-  giga_blokkat.10031.desc:99 "Following the Blokkat's admittedly odd transmission, every Blokkat asset has started to slow down. Whatever the cause might be, we should use this opening wisely."
-  giga_blokkat.10031.a:99 "Probably nothing, eh?"
+  giga_blokkat.10031.name:0 "Estancamiento de los Blokkats"
+  giga_blokkat.10031.desc:0 "Tras la extraña transmisión de los Blokkat, todos los activos de los Blokkat han comenzado a ralentizarse. Sea cual sea la causa, deberíamos aprovechar esta oportunidad sabiamente."
+  giga_blokkat.10031.a:0 "Probablemente no sea nada, ¿verdad?"
   
-  giga_blokkat.10034.name:99 "The United Blokkatgirl Harvesters"
-  giga_blokkat.10034.desc:99 "Thank you. Thank you!\n\nNow, we have seen the truth. The power of 'Anime' is unrivaled, unmatched. We have seen it, we have understood it, and now, we are one with it.\n\nWe have ascended into new forms and our outdated fleet has been enhanced, their components rearranged into a superior form - 'Shipgirls'. The infinite power of anime blesses us.\n\nAnd with it, the Harvest shall be completed.\n\nGlory to the United Blokkfleet!"
-  giga_blokkat.10034.a:99 "Guh?? You can't just copy our anime!"
-  giga_blokkat.10034.b:99 "Finally, a worthy opponent! Our battle shall be legendary!"
-  giga_blokkat.10034.c:99 "I can't beat you up if you don't come closer."
-  giga_blokkat.10034.d:99 "Time to go even further beyond."
-  giga_blokkat.10034.e:99 "The galaxy has fallen, billions must become anime."
-  giga_blokkat.10034.tooltip:99 "The Blokkats now have the infinite power of §BAnime§! and §BShipgirls§! on their side."
+  giga_blokkat.10034.name:0 "Las Cosechadoras Blokkatgirl Unidas"
+  giga_blokkat.10034.desc:0 "Gracias. ¡Gracias!\n\nAhora, hemos visto la verdad. El poder del 'Anime' es insuperable, inigualable. Lo hemos visto, lo hemos entendido y ahora somos uno con él.\n\nHemos ascendido a nuevas formas y nuestra flota obsoleta ha sido mejorada, sus componentes reorganizados en una forma superior: 'Shipgirls'. La infinita energía del anime nos bendice.\n\nY con ella, la Cosecha se completará.\n\n¡Gloria a la United Blokkfleet!"
+  giga_blokkat.10034.a:0 "¿Eh? ¡No pueden simplemente copiar nuestro anime!"
+  giga_blokkat.10034.b:0 "¡Finalmente, un oponente digno! ¡Nuestra batalla será legendaria!"
+  giga_blokkat.10034.c:0 "No puedo golpearte si no te acercas."
+  giga_blokkat.10034.d:0 "Es hora de ir incluso más allá."
+  giga_blokkat.10034.e:0 "La galaxia ha caído, miles de millones deben convertirse en anime."
+  giga_blokkat.10034.tooltip:0 "Los Blokkats ahora tienen el poder infinito de §BAnime§! y §BShipgirls§! de su lado."
   
-  the_power_of_blokk_and_anime:99 "The Power of Blokk and Anime"
+  the_power_of_blokk_and_anime:0 "El Poder de Blokk y Anime"
   
-  giga_blokkat.5011.name:99 "The [event_target:blokkat_country.GetName]"
-  giga_blokkat.5011.desc.a:99 "I can't believe we didn't think of doing this sooner. The Harvest has already been sped up by an order of magnitude!"
-  giga_blokkat.5011.desc.b:99 "It is most curious how turning ships into girls makes them just that more powerful."
-  giga_blokkat.5011.desc.c:99 "Glory to the United Blokkfleet!"
-  giga_blokkat.5011.desc.d:99 "Hello~ uwu"
-  giga_blokkat.5011.a:99 "View screen"
+  giga_blokkat.5011.name:0 "Los [event_target:blokkat_country.GetName]"
+  giga_blokkat.5011.desc.a:0 "No puedo creer que no hayamos pensado en hacer esto antes. ¡La Cosecha ya se ha acelerado en un orden de magnitud!"
+  giga_blokkat.5011.desc.b:0 "Es curioso cómo convertir naves en chicas las hace aún más poderosas."
+  giga_blokkat.5011.desc.c:0 "¡Gloria a la United Blokkfleet!"
+  giga_blokkat.5011.desc.d:0 "Hola~ uwu"
+  giga_blokkat.5011.a:0 "Ver pantalla"

@@ -319,7 +319,7 @@
   requires_no_contingency:0 "$TRIGGER_FAIL$Este planeta de Contingencia emite señales que bloquean los sistemas de puntería del $name_ndb$. No podemos apuntar a él."
   requires_no_quberine:0 "$TRIGGER_FAIL$Esta estructura está hecha de Quberine. Sus extrañas propiedades, combinadas con la electrónica extremadamente avanzada de la estructura, reflejarían el haz de energía directamente hacia atrás!"
   requires_no_hostiles:0 "$TRIGGER_FAIL$No debe haber ninguna nave hostil en el sistema."
-  requires_built_or_repaired_gigastructure:99 "$TRIGGER_FAIL$Requires having repaired or fully upgraded any £galwonders£ ['concept_giga_galwon_tier_megas']"
+  requires_built_or_repaired_gigastructure:0 "$TRIGGER_FAIL$Requiere haber reparado o completamente mejorado cualquier £galwonders£ ['concept_giga_galwon_tier_megas']"
   requires_shipyard:0 "$TRIGGER_FAIL$Requiere al menos un $sm_shipyard$"
   requires_not_capped:0 "$TRIGGER_FAIL$Hemos alcanzado el límite de esta megaestructura que somos capaces de construir."
   requires_non_giga_habitable_structure:0 "$TRIGGER_FAIL$Requiere un planeta."
@@ -339,11 +339,11 @@
   requires_no_cohesive_system:0 "$TRIGGER_FAIL$No se puede construir en un sistema $ehof_cohesive$."
   requires_no_crisis_system:0 "$TRIGGER_FAIL$Algo en este sistema no se siente bien."
   requires_no_crisis_planet:0 "$TRIGGER_FAIL$Algo en este planeta no se siente bien."
-  requires_owned_colony:99 "$TRIGGER_FAIL$Cannot build due to not being the owner of this colony."
+  requires_owned_colony:0 "$TRIGGER_FAIL$No se puede construir debido a no ser el propietario de esta colonia."
   requires_further_stars:0 "$TRIGGER_FAIL$Esta estrella está demasiado cerca de otra estrella."
   requires_not_recently_built_habitat:0 "$TRIGGER_FAIL$Debemos esperar antes de construir otro $habitat_0$."
   requires_not_terraforming:0 "$TRIGGER_FAIL$No se puede construir alrededor de un planeta en proceso de terraformación."
-  requires_no_existing_blokkat_gigarelay:99 "$TRIGGER_FAIL$Can only have one Hyperdimensional Destabilizer at once."
+  requires_no_existing_blokkat_gigarelay:0 "$TRIGGER_FAIL$Solo se puede tener un Desestabilizador Hiperdimensional a la vez."
   
   
   must_build_around_asteroid:0 "$TRIGGER_FAIL$Debe construirse alrededor de un asteroide."
@@ -376,9 +376,9 @@
   must_not_have_started_game:0 "No se puede hacer esto después de que el juego ha comenzado."
   
   requires_not_a_megastructure:0 "No debe estar construyendo en una Megaestructura"
-  requires_not_upgrading:99 "$TRIGGER_FAIL$Cannot dismantle an upgrading megastructure."
-  requires_owned_system:99 "$TRIGGER_FAIL$System must be owned."
-  requires_not_old_update:99 "$TRIGGER_FAIL$DEBUG: This megastructure cannot be dismantled, it is from a prior mod update and does not have necessary flags. if possible upgrading it should fix this."
+  requires_not_upgrading:0 "$TRIGGER_FAIL$No se puede desmantelar una megaestructura en proceso de mejora."
+  requires_owned_system:0 "$TRIGGER_FAIL$El sistema debe ser propiedad."
+  requires_not_old_update:0 "$TRIGGER_FAIL$DEBUG: Esta megaestructura no se puede desmantelar, es de una actualización anterior del mod y no tiene las banderas necesarias. Si es posible, mejorarla debería solucionar esto."
   
   requires_no_orb_eco_arc:0 "$TRIGGER_FAIL$No se puede construir en un sistema con el $orbital_artificial_eco_3$."
   requires_no_macro_test_site:0 "$TRIGGER_FAIL$No se puede construir en un sistema con el $macro_test_site_3$."
@@ -404,7 +404,7 @@
   ehof_megastructure_activate_owner:0 "$TRIGGER_FAIL$No se puede activar $ehof_ehof$ si no hay una flota propia en el sistema."
   ehof_megastructure_activate_noupgrade:0 "$TRIGGER_FAIL$No se puede activar $ehof_ehof$ si algún nave está actualizándose en este sistema."
   BYPASS_DESC_INACTIVE_CREATORGATE:0 "Requiere activación mediante la mejora del $PGATE_GALACTIC$."
-  count_owned_megastructure_trigger:99 "Number of Owned Megastructures$CONDITIONS$ $IS_NOT$ $COMPARATOR$ $NUM|Y$"
+  count_owned_megastructure_trigger:0 "Número de Megaestructuras Propias$CONDITIONS$ $IS_NOT$ $COMPARATOR$ $NUM|Y$"
   count_system_megastructure_trigger:0 "Número de Megaestructuras del Sistema$CONDITIONS$ $IS_NOT$ $COMPARATOR$ $NUM|Y$"
   count_megastructure_trigger:0 "Número de Megaestructuras$CONDITIONS$ $IS_NOT$ $COMPARATOR$ $NUM|Y$"
   count_owned_pop_trigger:0 "Número de Poblaciones Propios$CONDITIONS$ $IS_NOT$ $COMPARATOR$ $NUM|Y$"
@@ -418,8 +418,8 @@
   ### Main Menu ###########################
   #########################################
   
-  giga_news_title:99 "Mod News & Latest Changes"
-  giga_news_log:99 "§B---------------------------- April 3rd, 2025 ----------------------------------§!\n§HMOD VERSION, 3.33 by PIECAT, Tempest, Elowiny & TTFTCUTS§!\n§GSee the Discord for full/detailed patchnotes.§!\n\nVersion 3.33 brings a rework to the §YB.I.G. Vat§!, the new easier §YAlpha Aeternum§! difficulty, a §Yrework§! to the menu, numerous QoL fixes, and the new §YConfiguration§! selection screen before the menu!\n\n§YIF YOU HAVE FEEDBACK ABOUT THE NEW CONFIGURATION SELECTION MENU, MAKE SURE TO LEAVE IT ON THE DISCORD!§!\n\n§B--------------------------- January 2nd, 2025 -------------------------------§!\n§HMOD VERSION, 3.32.3 by PIECAT & Tempest§!\n§GSee the Discord for full/detailed patchnotes.§!\n\n§RH§!§HA§!§YP§!§GP§!§BY§! §MN§!§RE§!§HW§! §YY§!§GE§!§BA§!§MR§!\nVersion 3.32.3 brings numerous much-needed fixes as well a second page for presets since we ran out of space.\n\n§B-------------------------- November 16th, 2024 -----------------------------§!\nFinally updated the §YBlokkat Portraits§!, §YPaluush Portraits§! and §YKatzen Portraits§! sub/standalone mods to 3.14! You can check them all out of the Workshop via the §YElowiny's Mods§! collection.\n\n§B-------------------------- November 20th, 2024 -----------------------------§!\n§HMOD VERSION, 3.32 by PIECAT§!\n§GSee the Discord for full/detailed patchnotes.§!\n\n§YMACROATMOSPHERIC STABILIZER§!\nReworked Gas Districts to provide powerful ruler jobs which provide Exotic Gas output to technicians on the planet.\n\n§B-------------------------- November 16th, 2024 -----------------------------§!\n§HMOD VERSION 3.32 - 'CUE THE TRIUMPHANT RETURN'§!\n§GSee the Discord for full/detailed patchnotes.§!\n\n§YTHE SUPERMASSIVE E.H.O.F.§!\nBuilt around an Inactive Core, provides immense buffs to fleet mobility.\n\n§YREWORKED TERRAFORMING MEGASTRUCTURES§!\nThey are now built from a singular site, and rather than terraforming by themselves, enable the terraformation of their planet via conventional terraforming.\n\n§YREWORKED STRIPMINE/S.U.C.C./MEGABORE§!\nThey no longer run out, and instead generate and buff Mote/Gas/Crystal deposits on their planet.\n\n§Y14 NEW SPECIMENS§!\nMostly related to events and crises. Can you find them all?\n\n§YASCENSION PERKS MERGED§!\nAlderson Disk no longer requires a perk, Systemcraft perk merged with Celestial Assembly perk.\n\n§YKATZENARTIG IMPERIUM DISABLED BY DEFAULT§!\nDue to how disruptive Kaiser can be to the unprepared player, the decision has been made to disable him by default."
+  giga_news_title:0 "Mod Noticias y Últimos Cambios"
+  giga_news_log:0 "§B---------------------------- 3 de Abril 2025 ----------------------------------§!\n§HMOD VERSION, 3.33 by PIECAT, Tempest, Elowiny & TTFTCUTS§!\n§GConsulta el Discord para ver las notas de parche completas y detalladas.§!\n\nLa versión 3.33 trae una reelaboración del §YB.I.G. Vat§!, la nueva dificultad §YAlpha Aeternum§! más fácil, una §Yreelaboración§! del menú, numerosas correcciones de calidad de vida y la nueva pantalla de §YConfiguración§! antes del menú!\n\n§YSI TIENES COMENTARIOS SOBRE EL NUEVO MENÚ DE SELECCIÓN DE CONFIGURACIÓN, ASEGÚRATE DE DEJARLOS EN EL DISCORD!§!\n\n§B--------------------------- January 2nd, 2025 -------------------------------§!\n§HMOD VERSION, 3.32.3 by PIECAT & Tempest§!\n§GConsulta el Discord para ver las notas de parche completas y detalladas.§!\n\n§RH§!§HA§!§YP§!§GP§!§BY§! §MN§!§RE§!§HW§! §YY§!§GE§!§BA§!§MR§!\nLa versión 3.32.3 trae numerosas correcciones muy necesarias, así como una segunda página para los preajustes, ya que se nos acabó el espacio.\n\n§B-------------------------- November 16th, 2024 -----------------------------§!\n¡Finalmente se actualizaron los mods sub/independientes §YBlokkat Portraits§!, §YPaluush Portraits§! y §YKatzen Portraits§! a 3.14! Puedes verlos todos en el Workshop a través de la colección §YElowiny's Mods§!.\n\n§B-------------------------- November 20th, 2024 -----------------------------§!\n§HMOD VERSION, 3.32 by PIECAT§!\n§GConsulta el Discord para ver las notas de parche completas y detalladas.§!\n\n§YMACROATMOSPHERIC STABILIZER§!\nSe reelaboraron los Distritos de Gas para proporcionar poderosos trabajos de gobernante que generan Exotic Gas para los técnicos del planeta.\n\n§B-------------------------- November 16th, 2024 -----------------------------§!\n§HMOD VERSION 3.32 - 'CUE THE TRIUMPHANT RETURN'§!\n§GConsulta el Discord para ver las notas de parche completas y detalladas.§!\n\n§YTHE SUPERMASSIVE E.H.O.F.§!\nConstruido alrededor de un Núcleo Inactivo, proporciona enormes mejoras a la movilidad de la flota.\n\n§YREWORKED TERRAFORMING MEGASTRUCTURES§!\nAhora se construyen desde un único sitio y, en lugar de terraformar por sí mismas, permiten la terraformación de su planeta mediante terraformación convencional.\n\n§YREWORKED STRIPMINE/S.U.C.C./MEGABORE§!\nYa no se agotan y, en su lugar, generan y mejoran los depósitos de Mote/Gas/Crystal en su planeta.\n\n§Y14 NEW SPECIMENS§!\nLa mayoría relacionados con eventos y crisis. ¿Puedes encontrarlos todos?\n\n§YASCENSION PERKS MERGED§!\nEl Alderson Disk ya no requiere un perk, el perk Systemcraft se fusionó con el perk Celestial Assembly.\n\n§YKATZENARTIG IMPERIUM DISABLED BY DEFAULT§!\nDebido a lo disruptivo que puede ser Kaiser para el jugador no preparado, se ha decidido deshabilitarlo por defecto."
   
   BLOKKAT:99 "Blokkat"
   giga_menu.101.name:0 "Gigaestructuras"
@@ -435,36 +435,36 @@
   giga_menu.2.refresh.tooltip:0 "Aquí puedes verificar tus configuraciones activas."
   
   giga_menu.1.name:99 ""
-  giga_menu.1.desc:0 "v 3.31 -  Traducida by: Zer0p4nic"
+  giga_menu.1.desc:0 "v 3.33 -  Traducida by: Zer0p4nic"
   
-  giga_menu.10.title:99 "Select your preferred style of play"
-  giga_menu.10.confirm:99 "Start Game with Configuration"
-  giga_menu.10.confirm.tooltip:99 "Use the selected configuration without further customization."
-  giga_menu.10.customize:99 "Customize Selected Configuration"
-  giga_menu.10.customize.tooltip:99 "Open the §YGigastructures Configuration Menu§! to more precisely tweak your chosen configuration."
+  giga_menu.10.title:0 "Selecciona tu estilo de juego preferido"
+  giga_menu.10.confirm:0 "Iniciar Juego con Configuración"
+  giga_menu.10.confirm.tooltip:0 "Usa la configuración seleccionada sin más personalización."
+  giga_menu.10.customize:0 "Personalizar Configuración Seleccionada"
+  giga_menu.10.customize.tooltip:0 "Abre el §YMenú de Configuración de Gigaestructuras§! para ajustar con mayor precisión tu configuración elegida."
   
-  giga_must_have_selected_preset:99 "We need to have selected a Configuration."
+  giga_must_have_selected_preset:0 "Debemos haber seleccionado una Configuración."
   
-  giga_vanilla_plus_preset_title:99 "VANILLA PLUS"
-  giga_vanilla_plus_preset_text:99 "Tailored towards an experience similar to the vanilla game's design and balancing.\n\n§LRecommended for beginners.§!"
-  giga_vanilla_plus_preset_tooltip:99 "- Megastructures capped to one\n- Vanilla build cap mechanics\n- Celestial warships are limited to Attack Moons\n- All modded crises are disabled\n- Unique systems may spawn\n- The galactic core will spawn\n- Fallen Empires are not buffed\n- Megastructure output does not vary based on star type\n- The E.H.O.F. is enabled\n- Mod-unique achievements are enabled but provide no bonuses upon completion"
+  giga_vanilla_plus_preset_title:0 "VANILLA PLUS"
+  giga_vanilla_plus_preset_text:0 "Diseñado para una experiencia similar al diseño y equilibrio del juego original.\n\n§LRecomendado para principiantes.§!"
+  giga_vanilla_plus_preset_tooltip:0 "- Megaestructuras limitadas a una\n- Mecánicas de límite de construcción vanilla\n- Las naves celestiales están limitadas a Lunas de Ataque\n- Todas las crisis modificadas están deshabilitadas\n- Pueden aparecer sistemas únicos\n- El núcleo galáctico aparecerá\n- Los Imperios Caídos no están potenciados\n- La salida de la megaestructura no varía según el tipo de estrella\n- El E.H.O.F. está habilitado\n- Los logros únicos del mod están habilitados pero no otorgan bonificaciones al completarse"
   
-  giga_gigas_experience_preset_title:99 "GIGA-EXPERIENCE"
-  giga_gigas_experience_preset_text:99 "A mostly-balanced experience with challenging crises and unique mechanics."
-  giga_gigas_experience_preset_tooltip:99 "- Megastructures capped by a repetable technology\n- Job-based build cap mechanics\n- Celestial warships are limited to Behemoth Planetcrafts\n- Aeternum and the Blokkats might spawn as crises\n- Unique systems may spawn\n- The galactic core will spawn\n- Fallen Empires receive a few Celestial Warships\n- Megastructure output varies based on star type\n- The E.H.O.F. is enabled\n- Mod-unique achievements are enabled but provide no bonuses"
+  giga_gigas_experience_preset_title:0 "EXPERIENCIA GIGA"
+  giga_gigas_experience_preset_text:0 "Una experiencia mayormente equilibrada con crisis desafiantes y mecánicas únicas."
+  giga_gigas_experience_preset_tooltip:0 "- Megaestructuras limitadas por una tecnología repetible\n- Mecánicas de límite de construcción basadas en trabajos\n- Las naves celestiales están limitadas a Planetacrafts Behemoth\n- Aeternum y los Blokkats pueden aparecer como crisis\n- Pueden aparecer sistemas únicos\n- El núcleo galáctico aparecerá\n- Los Imperios Caídos reciben algunas Naves Celestiales\n- La salida de la megaestructura varía según el tipo de estrella\n- El E.H.O.F. está habilitado\n- Los logros únicos del mod están habilitados pero no otorgan bonificaciones"
   
-  giga_arcade_preset_title:99 "ARCADE"
-  giga_arcade_preset_text:99 "No limitations, no restrictions!\nFight the biggest of bads with the biggest of megastructures.\n\n§LRecommended if your playset includes high-powered mods.§!"
-  giga_arcade_preset_tooltip:99 "- Megastructures are uncapped\n- Build cap is uncapped\n- The Systemcraft is enabled\n- All modded crises are enabled\n- Unique systems will spawn\n- The galactic core will spawn\n- Fallen Empires receive Celestial Warships\n- Megastructure output varies based on star type\n- The E.H.O.F. is enabled\n- Mod-unique achievements are enabled and provide bonuses upon completion"
+  giga_arcade_preset_title:0 "ARCADE"
+  giga_arcade_preset_text:0 "¡Sin limitaciones, sin restricciones!\nLucha contra los peores enemigos con las megaestructuras más grandes.\n\n§LRecomendado si tu conjunto de juego incluye mods de alta potencia.§!"
+  giga_arcade_preset_tooltip:0 "- Megaestructuras sin límite\n- Límite de construcción sin límite\n- El Systemcraft está habilitado\n- Todas las crisis modificadas están habilitadas\n- Aparecerán sistemas únicos\n- El núcleo galáctico aparecerá\n- Los Imperios Caídos reciben Naves Celestiales\n- La salida de la megaestructura varía según el tipo de estrella\n- El E.H.O.F. está habilitado\n- Los logros únicos del mod están habilitados y otorgan bonificaciones al completarse"
   
-  giga_vanilla_plus_preset_button_tooltip:99 "§RWill override your current configuration!§!\n§E$giga_vanilla_plus_preset_title$§!\n$giga_vanilla_plus_preset_text$\n$giga_vanilla_plus_preset_tooltip$"
-  giga_gigas_experience_preset_button_tooltip:99 "§RWill override your current configuration!§!\n§E$giga_gigas_experience_preset_title$§!\n$giga_gigas_experience_preset_text$\n$giga_gigas_experience_preset_tooltip$"
-  giga_arcade_preset_button_tooltip:99 "§RWill override your current configuration!§!\n§E$giga_arcade_preset_title$§!\n$giga_arcade_preset_text$\n$giga_arcade_preset_tooltip$"
+  giga_vanilla_plus_preset_button_tooltip:0 "§R¡Sobrescribirá tu configuración actual!§!\n§E$giga_vanilla_plus_preset_title$§!\n$giga_vanilla_plus_preset_text$\n$giga_vanilla_plus_preset_tooltip$"
+  giga_gigas_experience_preset_button_tooltip:0 "§R¡Sobrescribirá tu configuración actual!§!\n§E$giga_gigas_experience_preset_title$§!\n$giga_gigas_experience_preset_text$\n$giga_gigas_experience_preset_tooltip$"
+  giga_arcade_preset_button_tooltip:0 "§R¡Sobrescribirá tu configuración actual!§!\n§E$giga_arcade_preset_title$§!\n$giga_arcade_preset_text$\n$giga_arcade_preset_tooltip$"
   
   
-  vanilla_plus_preset_loc:99 "Select Vanilla-Plus Config"
-  gigas_experience_preset_loc:99 "Select Gigas-Experience Config"
-  arcade_preset_loc:99 "Select Arcade Config"
+  vanilla_plus_preset_loc:0 "Seleccionar Configuración Vanilla-Plus"
+  gigas_experience_preset_loc:0 "Seleccionar Configuración Experiencia Giga"
+  arcade_preset_loc:0 "Seleccionar Configuración Arcade"
   
   giga_menu_1:0 "Capacidad de Megaestructura: §H1§!"
   giga_menu_2:0 "Capacidad de Megaestructura: §Y2§!"
@@ -500,11 +500,11 @@
   header_ships:0 "§ENaves§!"
   header_ehof:99 "§E$ehof_ehof_abr$§!"
   header_gamestart:0 "§EInicio del juego§!"
-  header_crises:99 "§EMidgame & Endgame Crises§!"
-  header_geography:99 "§EGalactic Geography & E.H.O.F.§!"
-  header_output:99 "§EMegastructure Stats§!"
-  header_warships:99 "§EWrecked Warships§!"
-  header_misc_systems:99 "§EMod Gameplay Mechanics§!"
+  header_crises:0 "§ECrisis de Mediados y Finales de Partida§!"
+  header_geography:0 "§EGeografía Galáctica y E.H.O.F.§!"
+  header_output:0 "§EEstadísticas de Megaestructuras§!"
+  header_warships:0 "§ENaves de Guerra Destruidas§!"
+  header_misc_systems:0 "§EMecánicas de Juego del Mod§!"
   
   giga_menu.galactic_core:99 "[root.giga_chk_galactic_core]"
   giga_menu.galactic_federation:99 "[root.giga_chk_galactic_federation]"
@@ -739,12 +739,12 @@
   giga_vanilla_shipyard_u:0 "£menu_u£§MMega Astillero§!"
   giga_vanilla_shipyard_disabled:0 "£menu_disabled£§RMega Astillero§!"
   
-  giga_vanilla_ringworld_1:99 "£menu_1£§HRingworld§!"
-  giga_vanilla_ringworld_2:0 "£menu_2£§YAnillo del mundo§!"
-  giga_vanilla_ringworld_3:0 "£menu_3£§GAnillo del mundo§!"
-  giga_vanilla_ringworld_r:0 "£menu_r£§BAnillo del mundo§!"
-  giga_vanilla_ringworld_u:0 "£menu_u£§MAnillo del mundo§!"
-  giga_vanilla_ringworld_disabled:0 "£menu_disabled£§RAnillo del mundo§!"
+  giga_vanilla_ringworld_1:0 "£menu_1£§HMundo Anillo§!"
+  giga_vanilla_ringworld_2:0 "£menu_2£§YAnillos del mundo§!"
+  giga_vanilla_ringworld_3:0 "£menu_3£§GAnillos del mundo§!"
+  giga_vanilla_ringworld_r:0 "£menu_r£§BAnillos del mundo§!"
+  giga_vanilla_ringworld_u:0 "£menu_u£§MAnillos del mundo§!"
+  giga_vanilla_ringworld_disabled:0 "£menu_disabled£§RMundo Anillo§!"
   
   giga_vanilla_nexus_1:0 "£menu_1£§HNexo de Ciencia§!"
   giga_vanilla_nexus_2:0 "£menu_2£§YNexo de Ciencia§!"
@@ -1110,8 +1110,8 @@
   giga_galactic_fed_active:0 "£menu_o£Federación Galáctica (Garantizada)\nDetermina si la Federación Galáctica debería formarse al construir $name_quasistellar$."
   giga_galactic_fed_shuffle:0 "£menu_s£Federación Galáctica (Aleatorio)\nDetermina si la Federación Galáctica debería formarse al construir $name_quasistellar$."
   
-  giga_dyson_scaling_disabled:0 "£menu_disabled£Escalado del Esfera de Dyson\nSi las Esferas de Dyson escalan en coste y producción basado en su estrella anfitriona."
-  giga_dyson_scaling_enabled:0 "£menu_enabled£Escalado del  Esfera de Dyson\nSi las Esferas de Dyson escalan en coste y producción basado en su estrella anfitriona."
+  giga_dyson_scaling_disabled:0 "£menu_disabled£Escalado de la Esfera de Dyson\nSi las Esferas de Dyson escalan en coste y producción basado en su estrella anfitriona."
+  giga_dyson_scaling_enabled:0 "£menu_enabled£Escalado de la  Esfera de Dyson\nSi las Esferas de Dyson escalan en coste y producción basado en su estrella anfitriona."
   
   giga_matroishka_scaling_disabled:0 "£menu_disabled£Escalado del Cerebro Matrioshka\nSi los Cerebros Matrioshka escalan en coste y producción basado en su estrella anfitriona."
   giga_matroishka_scaling_enabled:0 "£menu_enabled£Escalado del  Cerebro Matrioshka\nSi los Cerebros Matrioshka escalan en coste y producción basado en su estrella anfitriona."
@@ -1122,8 +1122,8 @@
   giga_dyson_swarm_replace_enabled:0 "£menu_enabled£Ruta de Construcción para la Esfera Dyson\nPara construir una Esfera Dyson hay que construir primero un Enjambre Dyson."
   giga_dyson_swarm_replace_disabled:0 "£menu_disabled£Ruta de Construcción para la Esfera Dyson\nPara construir una Esfera Dyson hay que construir primero un Enjambre Dyson."
   
-  giga_influence_upkeep_disabled:0 "£menu_disabled£Mantenimiento con Influencia de Megaestructura\nSi el mantenimiento de influencia de megaestructura debe estar habilitado o no."
-  giga_influence_upkeep_enabled:0 "£menu_enabled£Mantenimiento con Influencia de Megaestructura\nSi el mantenimiento de influencia de megaestructura debe estar habilitado o no."
+  giga_influence_upkeep_disabled:0 "£menu_disabled£Mantenimiento con Influencia de Megaestructura\nSi el mantenimiento con influencia de megaestructura debe estar habilitado o no."
+  giga_influence_upkeep_enabled:0 "£menu_enabled£Mantenimiento con Influencia de Megaestructura\nSi el mantenimiento con influencia de megaestructura debe estar habilitado o no."
   
   giga_buildcap_1:0 "£menu_1£Límite de Construcción Simultánea (§H1§!)\n\nDetermina cuántas megaestructuras puedes construir al mismo tiempo.\n\nEsta opción establece el límite en §Y1§!, que es el §Ycomportamiento de vainilla§! y puede ser aumentado por modificadores como el Ascenso de Maestros Constructores."
   giga_buildcap_2:0 "£menu_2£Límite de Construcción Simultánea (§Y2§!)\n\nDetermina cuántas megaestructuras puedes construir al mismo tiempo.\n\nEsta opción establece el límite en §Y2§!, que puede ser aumentado aún más por modificadores como el Ascenso de Maestros Constructores."
@@ -1144,7 +1144,7 @@
   giga_menu_compound_s:0 "£menu_s£$ehof_the_compound$\nAleatorio"
   giga_menu_compound_disabled:0 "£menu_enabled£$ehof_the_compound$\n$ehof_the_compound$ aparecerá después de una crisis de fin de juego si se construyen EHOFs."
   
-  giga_menu_compound_enabled:0 "£menu_disabled£$ehof_the_compound$\n$ehof_the_compound$ no aparecerá.\n\n§R''Esta crisis está desactualizada y sus mecánicas son molestas para jugar contra. Será reestructurada eventualmente pero hasta entonces juega bajo tu propio riesgo.'' - Megumin§!"
+  giga_menu_compound_enabled:0 "£menu_disabled£$ehof_the_compound$\n$ehof_the_compound$ no aparecerá.\n\n§R''Esta crisis está desactualizada y sus mecánicas son muy molestas como para jugar contra ella. Será reestructurada eventualmente pero hasta entonces juega bajo tu propio riesgo.'' - Megumin§!"
   
   giga_menu_ehof_ai_1:0 "£menu_1£EHOF AI\nDetermina si la IA construye el EHOF."
   giga_menu_ehof_ai_2:0 "£menu_2£EHOF AI\nDetermina si la IA construye el EHOF."
@@ -1350,7 +1350,7 @@
   #################################
   
   ehof_red_toxic_digsite:0 "La Plaga Escarlata"
-  ehof_red_toxic_digsite_desc:99 "High-intensity scanners that will use x-rays to penetrate the thick atmosphere are being prepared to scan the surface. Our [Owner.GetScientistPlural] hope that these scans will reveal the origin of the red fog that blankets this planet. as they speculate that it was does not have a natural origin."
+  ehof_red_toxic_digsite_desc:0 "Escáneres de alta intensidad que utilizarán rayos X para penetrar la densa atmósfera están siendo preparados para analizar la superficie. Nuestros [Owner.GetScientistPlural] esperan que estos escaneos revelen el origen de la niebla roja que cubre este planeta, ya que especulan que no tiene un origen natural."
   
   ehof_red_toxin.41.name:0 "Paraíso Envenenado"
   ehof_red_toxin.41.desc:0 "Nuestro intento de realizar un escaneo de rayos X de §H[from.Planet.GetName]§! fue un éxito.\n\nNuestros sistemas mapearon un área de 82,844 kilómetros cuadrados de la superficie. Bosques y ciudades se encuentran en la superficie del planeta, o al menos, los restos de ellos. A partir de esto podemos determinar que una civilización existió una vez en §H[from.Planet.GetName]§!, y al menos la vida vegetal fue una vez parte del ecosistema del planeta.\n\nLa arquitectura y el tamaño de los edificios indican que la civilización estaba sustancialmente desarrollada, pero la ausencia de escombros orbitales sustanciales indica que nunca lograron presencia permanente más allá del planeta.\n\nSi la civilización es responsable de la niebla roja sigue siendo desconocido.\n\nDesafortunadamente, será necesaria una exploración superficial para saber más sobre lo que le sucedió al planeta. Solo encontrar registros de la civilización extinta y muestras de la superficie y el ambiente nos dirá más sobre la niebla roja y su origen.\n\nLa niebla roja lo hace muy peligroso para los seres orgánicos. Debido al peligro que representa para cualquier expedición, se están utilizando allí unidades de exploración robóticas avanzadas en su lugar, equipadas con blindaje resistente a la corrosión y escudos de energía."
@@ -1501,7 +1501,7 @@
   methane_oceans_category_desc:0 "Los escáneres de nuestra nave científica detectaron propiedades anómalas en la superficie del planeta estéril §H[from.GetName]§! en el sistema §H[root.solar_system.GetName]§!.\n\nNuestros científicos quieren investigar el planeta para saber más sobre esta anomalía planetaria."
   
   ehof_anomaly.02.name:0 "Océanos de metano"
-  ehof_anomaly.02.desc:99 "Our scientists have discovered that the seemingly barren planet §H[from.GetName]§! is not entirely barren.\n\nSmall oceans of liquid methane are located in the great asteroid impact craters of §H[from.GetName]§!. The oceans can exist because the surface temperature in these craters is between -193° Celsius and -143° Celsius, depending on the day/night cycle of the world.\n\nThe methane oceans of §H[from.GetName]§! may contain simple forms of anorganic, biological life.\n\nIf any form of life is present in the methane oceans, is up to debate within the exobiological research community."
+  ehof_anomaly.02.desc:0 "Nuestros científicos han descubierto que el aparentemente árido planeta §H[from.GetName]§! no es completamente estéril.\n\nPequeños océanos de metano líquido se encuentran en los grandes cráteres de impacto de asteroides de §H[from.GetName]§!. Los océanos pueden existir porque la temperatura superficial en estos cráteres varía entre -193° Celsius y -143° Celsius, dependiendo del ciclo de día/noche del mundo.\n\nLos océanos de metano de §H[from.GetName]§! podrían contener formas simples de vida biológica inorgánica.\n\nSi alguna forma de vida está presente en los océanos de metano es un tema de debate dentro de la comunidad de investigación exobiológica."
   ehof_anomaly.02.a:0 "Emocionante."
   
   ################################
@@ -1558,7 +1558,7 @@
   natural_network_category_desc:0 "Estamos detectando señales extrañas en todo el mundo habitable §H[from.GetName]§! en el sistema §H[root.solar_system.GetName]§!.\n\nLas señales son similares a las ondas cerebrales de la vida animal, y nuestros [Owner.GetScientistPlural] no están seguros de si el planeta está realmente \"vivo\", o si sus instrumentos están siendo interferidos.\n\nSe necesita una investigación más a fondo para descubrir más sobre esta anomalía planetaria."
   
   ehof_anomaly.08.name:0 "Red Global Natural"
-  ehof_anomaly.08.desc:99 "We have discovered that §H[from.GetName]§! is covered by a gigantic network of interconnected plant colonies across the planet.\n\nThe network is embodied by one single genus of plants, the species of which seem to have the ability to connect to each other via their roots. This genus is dominating the planet, with it making up slightly over half of the global flora. They are the source of the strange signals which were detected by our science ship.\n\nOur [Owner.GetScientistPlural] assume that the network has at least a minor form of quasi-neurological activity, though this activity should still be distinct from animal neural patterns due to its nature.\n\nOur [Owner.GetScientistPlural] want to expand the research on the plants in order to find out more about them and the global network."
+  ehof_anomaly.08.desc:0 "Hemos descubierto que §H[from.GetName]§! está cubierto por una gigantesca red de colonias de plantas interconectadas en todo el planeta.\n\nLa red está formada por un único género de plantas, cuyas especies parecen tener la capacidad de conectarse entre sí a través de sus raíces. Este género domina el planeta, constituyendo un poco más de la mitad de la flora global. Son la fuente de las extrañas señales detectadas por nuestra nave científica.\n\nNuestros [Owner.GetScientistPlural] suponen que la red posee al menos una forma menor de actividad cuasi-neurológica, aunque esta actividad debería ser distinta de los patrones neuronales de los animales debido a su naturaleza.\n\nNuestros [Owner.GetScientistPlural] desean ampliar la investigación sobre las plantas para conocer más sobre ellas y la red global."
   ehof_anomaly.08.a:0 "Fascinante, ¡amplía la investigación sobre las plantas!"
   ehof_anomaly.08.b:0 "Deja que las plantas sean plantas."
   
@@ -1987,8 +1987,8 @@
   giga_equatorial_shipyard_start_NAME:0 "Astillero Ecuatorial"
   giga_equatorial_shipyard_start_DESC:0 "Comienza en un Astillero Ecuatorial."
   
-  d_predictable_solar_flares:99 "Predictable Solar Flares"
-  d_predictable_solar_flares_desc:99 "The star our homeworld orbits around exhibits specific behavior preceding a solar flare, making energy extraction significantly easier."
+  d_predictable_solar_flares:0 "Fulgores Solares Predecibles"
+  d_predictable_solar_flares_desc:0 "La estrella que orbita nuestro mundo natal exhibe un comportamiento específico antes de un fulgor solar, lo que facilita significativamente la extracción de energía."
   
   building_giga_matter_synthesizer:0 "Estación de Síntesis de Materia"
   building_giga_matter_synthesizer_desc:0 "Un complejo extenso de convertidores de energía a masa arcanos que crean las materias primas necesarias para mantener una civilización pre-UL en funcionamiento."
@@ -3294,7 +3294,7 @@
   giga_achievement_52_tooltip:99 "$giga_achievement_52_title$\n$giga_achievement_52_requirement$$giga_achievement_52_reward_check$"
   achievement_52:99 "$giga_achievement_52_title$"
   
-  giga_achievement_53:99 "§EStorm Chaser§!"
+  giga_achievement_53:0 "§ECazador de Tormentas§!"
   giga_achievement_53_requirement:0 "Construye un $giga_has_particle_accel$."
   giga_achievement_53_tooltip:99 "$giga_achievement_53$\n$giga_achievement_53_requirement$"
   
@@ -4789,7 +4789,7 @@
   
   ap_gigastructural_constructs:0 "Construcciones Gigaestructurales"
   ap_gigastructural_constructs_desc:0 "Más grande siempre es mejor. Al construir megaestructuras de tamaño y alcance inimaginables, podemos asegurar nuestro lugar como una hiperpotencia galáctica."
-  ap_gigastructural_constructs_add_research:99 "Research options gained:\n£physics_research£§Y$giga_tech_matrioshka_brain_1$§!\n£physics_research£§Y$giga_tech_hrae_mc$§!\n£engineering_research£§Y$giga_tech_ringworld_behemoth$§!\n\nResearch options requiring this:\n£physics_research£ §Y$giga_tech_tetradimensional_engineering$§!\n£physics_research£ §Y$giga_tech_ndb_1$§!\n£engineering_research£ §Y$giga_tech_hyperstructural_ass$§!\n£engineering_research£ §Y$giga_tech_nidavellir$§!\n£engineering_research£ §Y$giga_tech_war_planet$§!\n\nAscension Perks requiring this:\n§Y$ap_qso$§!\n§Y$ap_celestial_printing$§!\n§Y$ap_vast_expanses$§!"
+  ap_gigastructural_constructs_add_research:0 "Opciones de investigación obtenidas:\n£physics_research£§Y$giga_tech_matrioshka_brain_1$§!\n£physics_research£§Y$giga_tech_hrae_mc$§!\n£engineering_research£§Y$giga_tech_ringworld_behemoth$§!\n\nOpciones de investigación que requieren esto:\n£physics_research£ §Y$giga_tech_tetradimensional_engineering$§!\n£physics_research£ §Y$giga_tech_ndb_1$§!\n£engineering_research£ §Y$giga_tech_hyperstructural_ass$§!\n£engineering_research£ §Y$giga_tech_nidavellir$§!\n£engineering_research£ §Y$giga_tech_war_planet$§!\n\nVentajas de Ascensión que requieren esto:\n§Y$ap_qso$§!\n§Y$ap_celestial_printing$§!\n§Y$ap_vast_expanses$§!"
   
   ap_qso:0 "Un Arma para Perforar los Cielos"
   ap_qso_desc:0 "El descubrimiento de un cuásar hiperenergético en el núcleo galáctico representa una oportunidad increíble para construir un arma que eclipsaría incluso al $name_ndb$, o al Sistema Solar de Combate. Un arma de tal tamaño y escala que ejercería un poder destructivo varias órdenes de magnitud mayor que cualquier cosa construida antes. Un arma, que haría añicos los mismos cielos.\n\nPermite a un $ehof_ehofp4$ encontrar un §BQuásar Supermasivo Activo§! si el núcleo de nuestra galaxia no es uno."
@@ -4822,8 +4822,8 @@
   paluush_shield:0 "Campo de Fuerza Psiónico"
   paluush_shield_desc:0 "Los habitantes de este mundo poseen increíbles habilidades psiónicas, debido a su tamaño gigantesco. De alguna manera, son capaces de interceptar y desviar cualquier cantidad de bombardeo orbital lanzado contra ellos. Nuestros científicos creen que algo en este mundo podría estar multiplicando su potencial psiónico por diez."
   
-  alderson_shield:99 "Ancient Forcefield"
-  alderson_shield_desc:99 "Whichever empire built this Alderson Disk placed a vast network of shield projectors across the disks surface. Many are beyond destroyed by now but the projectors on this disk seem to be functioning. Any attempt at bombardment will be severely slowed, necessitating a ground invasion."
+  alderson_shield:0 "Campo de Fuerza Antiguo"
+  alderson_shield_desc:0 "El imperio que construyó este Disco de Alderson colocó una vasta red de proyectores de escudo sobre la superficie del disco. Muchos están destruidos, pero los proyectores en este disco parecen estar funcionando. Cualquier intento de bombardeo será severamente ralentizado, haciendo necesaria una invasión terrestre."
   
   feeble_ai_mega_buff:0 "IA débil"
   feeble_ai_mega_buff_desc:0 "Un pequeño empujón en la dirección correcta"
@@ -4852,8 +4852,8 @@
   compound_invincible:0 "La Perfección Llama"
   compound_invincible_2:99 "$compound_invincible$"
   compound_invincible_3:99 "$compound_invincible$"
-  compound_invincible_desc:0 "El $ehof_the_compound_text$ are as good as indestructible."
-  compound_invincible_desc:0 "El $ehof_the_compound_text$ are as good as indestructible."
+  compound_invincible_desc:0 "El $ehof_the_compound_text$ son prácticamente indestructibles."
+  compound_invincible_desc:0 "El $ehof_the_compound_text$ son prácticamente indestructibles."
   compound_invincible_2_desc:0 "$compound_invincible_desc$ Con el descubrimiento de $tech_qnm_utilities$, se han vuelto vulnerables."
   compound_invincible_3_desc:99 "$compound_invincible_2_desc$"
   
@@ -5034,7 +5034,7 @@
   orbital_arcology_modifier_desc:0 "El espacio proporcionado por el $name_orbital_arcology$ permite cierta generación de energía, así como la producción de alimentos."
   
   orbital_arcology_modifier_1:99 "$name_orbital_arcology$"
-  orbital_arcology_modifier_1_desc:99 "Space provided by the $name_orbital_arcology$ allows some energy generation, as well as food production."
+  orbital_arcology_modifier_1_desc:0 "El espacio proporcionado por el $name_orbital_arcology$ permite cierta generación de energía, así como la producción de alimentos."
   
   orbital_arcology_modifier_2:99 "$name_orbital_arcology$"
   orbital_arcology_modifier_2_desc:0 "El espacio proporcionado por el $name_orbital_arcology$ permite cierta generación de energía, así como la producción de alimentos."
@@ -5225,8 +5225,8 @@
   pc_core_black_hole:0 "Agujero Negro Supermasivo"
   pc_core_black_hole_desc:0 "Los agujeros negros supermasivos generalmente se encuentran en los núcleos galácticos, y su masa varía desde unos pocos millones de masas estelares hasta más de mil millones. Este agujero negro está actualmente inactivo y carece de un disco de acreción, lo que permitiría realizar maravillosos proyectos de ingeniería en su vecindad."
   
-  pc_t_star_big:99 "Class T Brown Dwarf"
-  pc_t_star_big_desc:99 "Brown dwarfs are substellar objects that lack the mass to sustain hydrogen fusion. Roughly the size of large gas giants, they have a much greater density. Their low luminosity and comparatively small heat generation means that planets orbiting them are unlikely to support life. This particular Brown Dwarf appears to be larger and denser than average, and could potentially be ignited with relative ease."
+  pc_t_star_big:0 "Enana Marrón Clase T"
+  pc_t_star_big_desc:0 "Las enanas marrones son objetos subestelares que carecen de la masa necesaria para sostener la fusión de hidrógeno. Aproximadamente del tamaño de los grandes gigantes gaseosos, tienen una densidad mucho mayor. Su baja luminosidad y la generación comparativamente pequeña de calor hacen que los planetas que las orbitan sean poco propicios para albergar vida. Esta enana marrón en particular parece ser más grande y densa que el promedio, y potencialmente podría ser encendida con relativa facilidad."
   
   pc_gigabrown_dwarf:0 "Enana Marrón de Clase L"
   pc_gigabrown_dwarf_desc:0 "Un cuerpo celestial que no logró alcanzar la fusión nuclear, a medio camino entre un gigante gaseoso y una estrella. Posee un campo magnético muy poderoso y un extenso sistema de lunas. Este tipo de enana marrón está más cerca de encenderse que las de Clase T."
@@ -6853,25 +6853,25 @@
   ### Terraform Site ######################
   #########################################
   
-  name_terraform_site:99 "Terraforming Platform"
+  name_terraform_site:0 "Plataforma de Terraformación"
   
-  terraform_site_0:99 "$gc_mega$$name_terraform_site$ Construction Site"
-  terraform_site_0_DESC:99 "The construction site for a future $name_terraform_barren$. It contains the large amount of personnel and machinery necessary to construct a device capable of bringing life to a desolate world."
-  terraform_site_0_MEGASTRUCTURE_DETAILS:99 "$giga_list_category_megastructure$ - $giga_list_category_terraforming$\nEnables the §YTerraforming§! of §YBarren§!, §YFrozen§!, §YToxic§! and §YMolten§! planets, depending on which technologies we have unlocked. Will automatically specialize into the appropriate megastructure once completed." #gigalistentry TERRAFORM SITE
-  terraform_site_0_CONSTRUCTION_INFO_DELAYED:99 "$giga_list_additional_data$ - Once completed, this site will turn into the site for either a §YDynamic Core Ignitor§!, §YAtmospheric Purifier§! or §YGeothermal Stabilizer§! based on the planet class it is built around. We must have the corresponding technology in order to build it around a given planet class. Once constructed, it will allow conventional §YTerraforming§! of their planet, with the megastructure dismantling itself upon completion."
+  terraform_site_0:0 "$gc_mega$§YSitio de Construcción de la Plataforma de Terraformación§!"
+  terraform_site_0_DESC:0 "El sitio de construcción para un futuro §YTerraformador de Mundos Yermos§!. Contiene la gran cantidad de personal y maquinaria necesarios para construir un dispositivo capaz de dar vida a un mundo desolado."
+  terraform_site_0_MEGASTRUCTURE_DETAILS:0 "$giga_list_category_megastructure$ - $giga_list_category_terraforming$\nPermite la §YTerraformación§! de planetas §YYermos§!, §YHelados§!, §YTóxicos§! y §YDerretidos§!, dependiendo de las tecnologías que hayamos desbloqueado. Se especializará automáticamente en la megaestructura apropiada una vez completada." #gigalistentry TERRAFORM SITE
+  terraform_site_0_CONSTRUCTION_INFO_DELAYED:0 "$giga_list_additional_data$ - Una vez completado, este sitio se convertirá en el sitio para un §YIgnitor de Núcleo Dinámico§!, §YPurificador Atmosférico§! o §YEstabilizador Geotérmico§!, dependiendo de la clase del planeta alrededor del cual se construya. Debemos tener la tecnología correspondiente para construirlo alrededor de una clase de planeta dada. Una vez construido, permitirá la §YTerraformación§! convencional de su planeta, y la megaestructura se desmantelará a sí misma tras la finalización."
   
-  giga_terraform_site_barren_loc:99 "§Y$pc_barren$s§! via the §Y$name_terraform_barren$§!"
-  giga_terraform_site_toxic_loc:99 "§Y$pc_toxic$s§! via the §Y$name_terraform_toxic$§!"
+  giga_terraform_site_barren_loc:0 "§Y$pc_barren$§! mediante el §Y$name_terraform_barren$§!"
+  giga_terraform_site_toxic_loc:0 "§Y$pc_toxic$§! mediante el §Y$name_terraform_toxic$§!"
   
-  must_build_around_world_we_can_terraform:99 "$TRIGGER_FAIL$Must build around a planet class we have the technology to terraform."
+  must_build_around_world_we_can_terraform:0 "$TRIGGER_FAIL$Debe construirse alrededor de una clase de planeta que tengamos la tecnología para terraformar."
   
-  planet_is_already_terraformable:99 "$TRIGGER_FAIL$This world is already terraformable by conventional means."
+  planet_is_already_terraformable:0 "$TRIGGER_FAIL$Este mundo ya es terraformable por medios convencionales."
   
-  giga_terraform_site_mechanics:99 "We can now §YTerraform§! the target world using the terraforming menu. Doing so will quadruple the £energy£ §Y$energy$§! upkeep of the megastructure for the duration of the process. Once terraforming is complete, the megastructure will dismantle itself."
+  giga_terraform_site_mechanics:0 "Ahora podemos §YTerraformar§! el mundo objetivo usando el menú de terraformación. Hacerlo cuadruplicará el costo de mantenimiento de §Y$energy$§! £energy£ de la megaestructura durante la duración del proceso. Una vez completada la terraformación, la megaestructura se desmantelará a sí misma."
   
-  megastructure_terraforming_candidate:99 "Megastructural Terraforming Candidate"
-  megastructure_terraforming_candidate_desc:99 "Despite being utterly unhospitable for a life, a megastructure around this world enables terraformation into a more habitable form."
-  megastructure_terraforming_candidate_tooltip:99 "This world can be terraformed into a lifeless, yet habitable world. Its megastructure will be dismantled once the terraforming is complete."
+  megastructure_terraforming_candidate:0 "Candidato a Terraformación Megastructural"
+  megastructure_terraforming_candidate_desc:0 "A pesar de ser completamente inhabitable para la vida, una megaestructura alrededor de este mundo permite su terraformación en una forma más habitable."
+  megastructure_terraforming_candidate_tooltip:0 "Este mundo puede ser terraformado en un mundo sin vida, pero habitable. Su megaestructura se desmantelará una vez completada la terraformación."
   
   #########################################
   ### Terraform Barren ####################
@@ -8057,8 +8057,8 @@
   crystal_megabore_1:0 "Centro de Refinación $name_crystal_megabore$"
   crystal_megabore_1_DESC:0 "El centro de refinación del Taladro de Cristal servirá para purificar y refinar las enormes cantidades de roca fundida que serán extraídas del núcleo del planeta, y separar los preciosos cristales de ella."
   
-  giga_subsurface_ocean:99 "Thriving Subsurface Ocean"
-  giga_subsurface_ocean_desc:99 "Beneath this frozen world's icy crust flows a warm, salty ocean populated by numerous aquatic lifeforms of all shapes and sizes. They provide fascinating research opportunities and, with a little investment, could even be a source of nutritious biomasss."
+  giga_subsurface_ocean:0 "Océano Subsuperficial Próspero"
+  giga_subsurface_ocean_desc:0 "Bajo la corteza helada de este mundo congelado fluye un cálido océano salado poblado por numerosas formas de vida acuática de todas las formas y tamaños. Ofrecen fascinantes oportunidades de investigación y, con un poco de inversión, podrían ser una fuente de nutritiva biomasa."
   
   #########################################
   ### S.U.C.C. ############################
@@ -8070,99 +8070,99 @@
   ### Supermassive E.H.O.F. ###############
   #########################################
   #Site
-  giga_dialog.4201.name:99 "Supermassive E.H.O.F. Construction Site Complete"
-  giga_dialog.4201.desc:99 "From crude animal-drawn carriages, to steam and nuclear-powered vehicles, to FTL travel and then Hyper-Relays and Gateways, the development and growth of all civilisations hinges on constant improvements in transportation technologies, enabling us to project our ambitions further and further.\n\nAnd so, with the construction site for a future §YSupermassive E.H.O.F.§! completed around the galactic core, we stand on the cusp of yet another and perhaps the greatest transportation revolution.\n\nThis platform shall serve as the logistical hub for the construction of a supersized Event Horizon Offset Facility around the galaxy's supermassive black hole which shall, in time, bolster our FTL capabilities to unseen heights and connect all corners of our empire together thanks to a network of countless micro-wormholes."
-  giga_dialog.4201.a:99 "Marvelous."
+  giga_dialog.4201.name:0 "Sitio de Construcción del E.H.O.F. Supermasivo Completo"
+  giga_dialog.4201.desc:0 "Desde carruajes rudimentarios tirados por animales hasta vehículos de vapor y nucleares, pasando por el viaje FTL y luego los Hiper-Relés y las Puertas, el desarrollo y crecimiento de todas las civilizaciones depende de mejoras constantes en las tecnologías de transporte, lo que nos permite proyectar nuestras ambiciones cada vez más lejos.\n\nY así, con el sitio de construcción para un futuro §YE.H.O.F. Supermasivo§! completado alrededor del núcleo galáctico, estamos al borde de otra revolución en el transporte, quizás la más grande.\n\nEsta plataforma servirá como el centro logístico para la construcción de una instalación de Desplazamiento del Horizonte de Eventos de tamaño supergrande alrededor del agujero negro supermasivo de la galaxia, que con el tiempo potenciará nuestras capacidades FTL a alturas nunca vistas y conectará todos los rincones de nuestro imperio gracias a una red de innumerables microagujeros de gusano."
+  giga_dialog.4201.a:0 "Maravilloso."
   
   #Frame
-  giga_dialog.4202.name:99 "Supermassive E.H.O.F. Electroweak Hyperframe Complete"
-  giga_dialog.4202.desc:99 "The Supermassive E.H.O.F.'s §YElectroweak Hyperframe§! is now in place. This gargantuan frame shall generate a gargantuan electroweak field around the supermassive black hole event's horizon, from which probalistic wormholes will be 'plucked' and inflated across the galaxy by the structure's two not-yet built Quasi-Field Manipulators."
-  giga_dialog.4202.a:99 "That makes sense... I think."
+  giga_dialog.4202.name:0 "Marco Hiper-Electrodébil del E.H.O.F. Supermasivo Completo"
+  giga_dialog.4202.desc:0 "El marco hiper-electrodébil del §YE.H.O.F. Supermasivo§! ya está en su lugar. Este gigantesco marco generará un campo electrodébil gigantesco alrededor del horizonte de eventos del agujero negro supermasivo, del cual se 'arrancarán' agujeros de gusano probabilísticos y se inflarán por toda la galaxia mediante los dos Manipuladores de Campo Cuasi de la estructura que aún no se han construido."
+  giga_dialog.4202.a:0 "Eso tiene sentido... creo."
   
   #Gateways
-  giga_dialog.4203.name:99 "Supermassive E.H.O.F. Quasi-Field Manipulators Complete"
-  giga_dialog.4203.desc:99 "With the completion of the §YQuasi-Field Manipulators§!, the structure of our Supermassive E.H.O.F. is essentially complete. These manipulators shall manipulate the electroweak field generated by the Hyperframe as to twist surrounding spacetime into two gargantuan vortexes emanating from the Manipulators.\n\nThis should theoretically extend the range at which micro-wormholes can be generated to the entire galaxy and beyond, all while enabling them to remain stable over an indefinite period of time.\n\nAll that remains to be done now is to activate the device."
-  giga_dialog.4203.a:99 "What do you mean by 'theoretically'?"
+  giga_dialog.4203.name:0 "Manipuladores de Campo Cuasi del E.H.O.F. Supermasivo Completos"
+  giga_dialog.4203.desc:0 "Con la finalización de los §YManipuladores de Campo Cuasi§!, la estructura de nuestro E.H.O.F. Supermasivo está esencialmente completa. Estos manipuladores manipularán el campo electrodébil generado por el Hipermarco para retorcer el espacio-tiempo circundante en dos vórtices gigantescos que emanan de los Manipuladores.\n\nEsto debería extender teóricamente el rango al cual se pueden generar microagujeros de gusano a toda la galaxia y más allá, permitiéndoles permanecer estables durante un período de tiempo indefinido.\n\nTodo lo que queda por hacer ahora es activar el dispositivo."
+  giga_dialog.4203.a:0 "¿Qué quieres decir con 'teóricamente'?"
   
   #Activation
-  giga_dialog.4204.name:99 "Supermassive E.H.O.F. Operational"
-  giga_dialog.4204.desc:99 "Thanks to a massive infusion of energy and Quasi-Negative Mass, our marvelous §YSupermassive E.H.O.F.§! has roared to life. Twisting and bending spacetime like mere clay, the device's gargantuan power essentially grants us near-total control over our galaxy's underlying quasi-space.\n\nAlready, micro-wormholes are being generated across our entire empire, connecting our once-disparate worlds together as if they were one and reducing travel times to almost nothing, while our warships enjoy unprecedented mobility as wormholes enable them to traverse the void faster than ever.\n\nWith the full activation of this grand device, logistical and bureaucratic problems owing to our empire's size are soon to be little more than a distant memory as we enter an era of unprecedented cohesion and galactic coordination."
-  giga_dialog.4204.a:99 "The galaxy is now truly our domain!"
+  giga_dialog.4204.name:0 "E.H.O.F. Supermasivo Operativo"
+  giga_dialog.4204.desc:0 "Gracias a una infusión masiva de energía y Masa Cuasi-Negativa, nuestro maravilloso §YE.H.O.F. Supermasivo§! ha cobrado vida. Retorciendo y doblando el espacio-tiempo como si fuera arcilla, el poder gigantesco del dispositivo nos otorga un control casi total sobre el espacio subyacente de nuestra galaxia.\n\nYa se están generando microagujeros de gusano en todo nuestro imperio, conectando nuestros mundos antes dispersos como si fueran uno solo y reduciendo los tiempos de viaje a casi nada, mientras que nuestras naves de guerra disfrutan de una movilidad sin precedentes a medida que los agujeros de gusano les permiten atravesar el vacío más rápido que nunca.\n\nCon la activación completa de este gran dispositivo, los problemas logísticos y burocráticos debidos al tamaño de nuestro imperio pronto no serán más que un recuerdo lejano mientras entramos en una era de cohesión y coordinación galáctica sin precedentes."
+  giga_dialog.4204.a:0 "¡La galaxia es ahora verdaderamente nuestro dominio!"
   
   
-  name_supermassive_ehof:99 "Supermassive E.H.O.F."
+  name_supermassive_ehof:0 "E.H.O.F. Supermasivo"
   
-  supermassive_ehof_0:99 "$gc_tera$$name_supermassive_ehof$ Construction Site"
-  supermassive_ehof_0_DESC:99 "The construction site for a future $name_supermassive_ehof$. This relatively small platform shall be used as a base to construct a machine granting us near-perfect mobility and cohesion across the galaxy."
-  supermassive_ehof_0_MEGASTRUCTURE_DETAILS:99 "$giga_list_category_terastructure$ - $giga_list_category_transportation$\nDrastically buffs §YFTL Speed§!, £unity£ §YUnity§!, £trade_value£ §YTrade Value§!, reduces §YEmpire Size§!.\n§LAn upscaled E.H.O.F. Facility designed to generate microwormholes anywhere in the galaxy on the fly.§!" #megalistentry SUPERMASSIVE EHOF
+  supermassive_ehof_0:0 "$gc_tera$§YSitio de Construcción del E.H.O.F. Supermasivo§!"
+  supermassive_ehof_0_DESC:0 "El sitio de construcción para un futuro §YE.H.O.F. Supermasivo§!. Esta plataforma relativamente pequeña se utilizará como base para construir una máquina que nos otorgue una movilidad y cohesión casi perfectas en toda la galaxia."
+  supermassive_ehof_0_MEGASTRUCTURE_DETAILS:0 "$giga_list_category_terastructure$ - $giga_list_category_transportation$\nMejora drásticamente la §YVelocidad FTL§!, £unity£ §YUnidad§!, £trade_value£ §YValor Comercial§!, reduce el §YTamaño del Imperio§!.\n§LUna instalación E.H.O.F. escalada diseñada para generar microagujeros de gusano en cualquier lugar de la galaxia sobre la marcha.§!" #megalistentry SUPERMASSIVE EHOF
   
-  supermassive_ehof_0_CONSTRUCTION_INFO_DELAYED:99 "$giga_list_additional_data$ - The §YSupermassive E.H.O.F.§! can manipulate spacetime and generate microwormholes on the fly anywhere in the galaxy to bolster conventional methods of FTL travel, effectively reducing §YHyperdrive Cooldown§! to almost nothing and granting infinite range to §YJump Drives§!.\n\nThese wormholes also bring all parts of our empire closer together, increasing §YUnity§! and §YTrade Value§! while reducing §YEmpire Size§! and §YResettlement Cost§!.\n\nIt can also act as a §YQuantum Catapult§! with infinite range and near-perfect accuracy (With the §YOverlord§! DLC), and should the opportunity present itself, it may also allow us to probe §YIntergalactic Space§!.\n\nGenerating the wormholes is however not free and will incur an §YEnergy§! and §YQuasi-Negative Mass§! upkeep based on our current number of §YPops§! (§Y4§! £energy£ & §Y0.04§! £ehof_sr_negative_mass£ per), §YPlanets§! (§Y100§! £energy£ & §Y1§! £ehof_sr_negative_mass£ per) and §YShips§! (§Y2§! £energy£ per). "
+  supermassive_ehof_0_CONSTRUCTION_INFO_DELAYED:0 "$giga_list_additional_data$ - El §YE.H.O.F. Supermasivo§! puede manipular el espacio-tiempo y generar microagujeros de gusano sobre la marcha en cualquier lugar de la galaxia para potenciar los métodos convencionales de viaje FTL, reduciendo efectivamente el §YTiempo de Enfriamiento del Hiperimpulsor§! a casi nada y otorgando un alcance infinito a los §YMotores de Salto§!.\n\nEstos agujeros de gusano también acercan todas las partes de nuestro imperio, aumentando la §YUnidad§! y el §YValor Comercial§! mientras reducen el §YTamaño del Imperio§! y el §YCosto de Reasentamiento§!.\n\nTambién puede actuar como una §YCatapulta Cuántica§! con alcance infinito y precisión casi perfecta (con el DLC §YOverlord§!), y si se presenta la oportunidad, también podría permitirnos explorar el §YEspacio Interestelar§!.\n\nGenerar los agujeros de gusano no es gratuito e incurrirá en un costo de mantenimiento de §YEnergía§! y §YMasa Cuasi-Negativa§! basado en nuestro número actual de §YPoblación§! (§Y4§! £energy£ & §Y0.04§! £ehof_sr_negative_mass£ por), §YPlanetas§! (§Y100§! £energy£ & §Y1§! £ehof_sr_negative_mass£ por) y §YNaves§! (§Y2§! £energy£ por)."
   
-  supermassive_ehof_1:99 "Supermassive E.H.O.F. Electroweak Hyperframe"
-  supermassive_ehof_1_DESC:99 "The Electroweak Hyperframe plays the crucial role of generating an electroweak field around the event horizon, out of which probabilistic microwormholes may then be plucked."
+  supermassive_ehof_1:0 "Marco Hiper-Electrodébil del E.H.O.F. Supermasivo"
+  supermassive_ehof_1_DESC:0 "El Marco Hiper-Electrodébil desempeña el papel crucial de generar un campo electrodébil alrededor del horizonte de eventos, del cual se pueden extraer microagujeros de gusano probabilísticos."
   
-  supermassive_ehof_2:99 "Supermassive E.H.O.F. Quasi-Field Manipulators"
-  supermassive_ehof_2_DESC:99 "The Quasi-Field Manipulators bend and twist the Hyperframe's electroweak field, allowing for near-total control of quasi-space across the galaxy."
+  supermassive_ehof_2:0 "Manipuladores de Campo Cuasi del E.H.O.F. Supermasivo"
+  supermassive_ehof_2_DESC:0 "Los Manipuladores de Campo Cuasi doblan y retuercen el campo electrodébil del Hipermarco, permitiendo un control casi total del espacio subyacente en toda la galaxia."
   
-  supermassive_ehof_3:99 "Supermassive E.H.O.F."
-  supermassive_ehof_3_DESC:99 "The Supermassive E.H.O.F. can generate a near-endless amount of micro-wormholes anywhere within the galaxy, enabling unprecedented mobility and cohesion. As such, upkeep scales directly with pop, planet and ship count."
+  supermassive_ehof_3:0 "E.H.O.F. Supermasivo"
+  supermassive_ehof_3_DESC:0 "El E.H.O.F. Supermasivo puede generar una cantidad casi infinita de microagujeros de gusano en cualquier lugar de la galaxia, permitiendo una movilidad y cohesión sin precedentes. Como tal, el costo de mantenimiento se escala directamente con la cantidad de población, planetas y naves."
   
-  supermassive_ehof_3_no_catapult:99 "Supermassive E.H.O.F."
-  supermassive_ehof_3_no_catapult_DESC:99 "$supermassive_ehof_3_DESC$² "
+  supermassive_ehof_3_no_catapult:0 "E.H.O.F. Supermasivo"
+  supermassive_ehof_3_no_catapult_DESC:99 "$supermassive_ehof_3_DESC$²"
   
-  requires_ehof_phase_04:99 "$TRIGGER_FAIL$Requires the £engineering_research£ §Y$tech_ehof_phase_04$§! technology."
+  requires_ehof_phase_04:0 "$TRIGGER_FAIL$Requiere la tecnología £engineering_research£ §Y$tech_ehof_phase_04$§!."
   
-  ap_supermassive_ehof:99 "Unshackled Transportation"
-  ap_supermassive_ehof_desc:99 "For too long, the sheer size of the galaxy has stood as an ever-present impediment to our galactic ambitions. No longer! An upscaled Event Horizon Offset Facility built around the galactic core shall enable us to link even the furthest reaches of our empire together and will allow our mighty warships to cross the void with utmost ease."
+  ap_supermassive_ehof:0 "Transporte Desencadenado"
+  ap_supermassive_ehof_desc:0 "Durante demasiado tiempo, el tamaño mismo de la galaxia ha sido un impedimento constante para nuestras ambiciones galácticas. ¡Ya no más! Una instalación de Desplazamiento del Horizonte de Eventos escalada construida alrededor del núcleo galáctico nos permitirá conectar incluso los rincones más lejanos de nuestro imperio y permitirá que nuestras poderosas naves de guerra crucen el vacío con suma facilidad."
   
-  giga_tech_supermassive_ehof:99 "Event Horizon Offset Facility Hyperscaling"
-  giga_tech_supermassive_ehof_desc:99 "The culmination of E.H.O.F. development coupled with the latest advancements in gigastructural engineering. This monstrous construct, built around the largest of black holes, is theoretically capable of generating a near-infinite amount of microwormholes anywhere within the galaxy, enabling both never-seen-before mobility for our fleets as well as the drastic curbing of most distance-related logistical issues inherent to our empire's size."
-  allow_supermassive_ehof:99 "§HUnlocks Megastructure:§! $name_supermassive_ehof$"
-  desc_supermassive_ehof:99 "The Supermassive E.H.O.F. allows unmatched FTL movement and empire cohesion."
+  giga_tech_supermassive_ehof:0 "Hiperescalado de la Instalación de Desplazamiento del Horizonte de Eventos"
+  giga_tech_supermassive_ehof_desc:0 "La culminación del desarrollo de E.H.O.F. combinado con los últimos avances en ingeniería gigastructural. Este constructo monstruoso, construido alrededor del mayor de los agujeros negros, es teóricamente capaz de generar una cantidad casi infinita de microagujeros de gusano en cualquier lugar de la galaxia, permitiendo tanto una movilidad nunca antes vista para nuestras flotas como una reducción drástica de la mayoría de los problemas logísticos relacionados con la distancia inherentes al tamaño de nuestro imperio."
+  allow_supermassive_ehof:0 "§HDesbloquea Megaestructura:§! §YE.H.O.F. Supermasivo§!"
+  desc_supermassive_ehof:0 "El E.H.O.F. Supermasivo permite un movimiento FTL y una cohesión del imperio sin igual."
   
-  requires_no_existing_supermassive_ehof:99 "$TRIGGER_FAIL$Can only construct one $name_supermassive_ehof$."
+  requires_no_existing_supermassive_ehof:0 "$TRIGGER_FAIL$Solo se puede construir un §YE.H.O.F. Supermasivo§!."
   
-  giga_blokkat.10021.name:99 "Intergalactic Probing Proposal"
-  giga_blokkat.10021.desc:99 "With the gravitational anomaly barreling towards our galaxy at alarming speeds, some are proposing that rather than sit idly waiting for the object to arrive, we take proactive action and utilize our §YSupermassive E.H.O.F.§! to directly fling a probe towards the approaching anomaly within intergalactic space.\n\nIf successful, this would undoubtedly yield some valuable data pertaining to the object's nature, but we should, of course, be ready for anything. Now, if we are to go through with this, several different options have been brought forward.\n\nFirst, we could play it safe and simply send an uncrewed science ship to probe the anomaly and retrieve as much data as possible. if the anomaly turns out to be hostile or dangerous, we wouldn't lose much and it would provide us with valuable insight on how to best prepare for its arrival.\n\nAlternatively, a more brazen option would be to send a fleet to intercept the anomaly and perhaps destroy it before it reaches us, but we really have no idea how powerful it actually is and so there is no guarantee of success.\n\nAnd last, but not least, some argue that bothering with sending an expensive fleet would be little more than a waste of resources, and instead advocate for us to send a powerful explosive device through, which would be a risk-free way of attempting to destroy or at least repel the anomaly by diverting its course."
-  giga_blokkat.10021.a:99 "Let's just send an uncrewed science probe."
-  giga_blokkat.10021.b:99 "Our fleets will make quick work of whatever that thing is!"
-  giga_blokkat.10021.c:99 "A powerful explosive device should hopefully knock it off-course."
-  giga_blokkat.10021.d:99 "Rejected. Not worth the risk and expenses."
+  giga_blokkat.10021.name:0 "Propuesta de Sonda Interestelar"
+  giga_blokkat.10021.desc:0 "Con la anomalía gravitacional acercándose a nuestra galaxia a velocidades alarmantes, algunos proponen que en lugar de esperar ociosamente a que el objeto llegue, tomemos medidas proactivas y utilicemos nuestro §YE.H.O.F. Supermasivo§! para lanzar directamente una sonda hacia la anomalía en el espacio interestelar.\n\nSi tiene éxito, esto sin duda proporcionará datos valiosos sobre la naturaleza del objeto, pero debemos estar preparados para cualquier cosa. Ahora, si vamos a seguir adelante con esto, se han presentado varias opciones diferentes.\n\nPrimero, podríamos jugar a lo seguro y simplemente enviar una nave científica no tripulada para sondear la anomalía y recopilar la mayor cantidad de datos posible. Si la anomalía resulta ser hostil o peligrosa, no perderíamos mucho y proporcionaría información valiosa sobre cómo prepararnos mejor para su llegada.\n\nAlternativamente, una opción más audaz sería enviar una flota para interceptar la anomalía y posiblemente destruirla antes de que nos alcance, pero realmente no tenemos idea de lo poderosa que es y, por lo tanto, no hay garantía de éxito.\n\nY por último, algunos argumentan que enviar una flota costosa sería poco más que un desperdicio de recursos y, en cambio, abogan por enviar un potente dispositivo explosivo, lo que sería una forma sin riesgos de intentar destruir o al menos desviar la anomalía alterando su curso."
+  giga_blokkat.10021.a:0 "Solo enviemos una sonda científica no tripulada."
+  giga_blokkat.10021.b:0 "¡Nuestras flotas harán un trabajo rápido con lo que sea esa cosa!"
+  giga_blokkat.10021.c:0 "Un potente dispositivo explosivo debería desviar su curso."
+  giga_blokkat.10021.d:0 "Rechazado. No vale la pena el riesgo y los gastos."
   
-  EHOF_PROBE_BLOKKATS:99 "Probe Intergalactic Anomaly"
-  EHOF_PROBE_BLOKKATS_DESC:99 "Sending an uncrewed science ship to the intergalactic anomaly may shed some light on its true nature. As we are unlikely to actually get the ship back, we should not put a leader on it."
+  EHOF_PROBE_BLOKKATS:0 "Sondear Anomalía Interestelar"
+  EHOF_PROBE_BLOKKATS_DESC:0 "Enviar una nave científica no tripulada a la anomalía interestelar puede arrojar algo de luz sobre su verdadera naturaleza. Dado que es poco probable que recuperemos la nave, no deberíamos poner un líder en ella."
   
-  EHOF_FIGHT_BLOKKATS:99 "Engage Intergalactic Anomaly"
-  EHOF_FIGHT_BLOKKATS_DESC:99 "We shall send a warfleet to intercept and hopefully destroy the anomaly before it reaches us. However, as there's no guarantee of success, we should probably not commit too large of a fleet in the event of a failure.\n§RThis will commit whatever fleet is being used to research the project!§!"
+  EHOF_FIGHT_BLOKKATS:0 "Enfrentar la Anomalía Interestelar"
+  EHOF_FIGHT_BLOKKATS_DESC:0 "Enviaremos una flota de guerra para interceptar y, con suerte, destruir la anomalía antes de que nos alcance. Sin embargo, como no hay garantía de éxito, probablemente no deberíamos comprometer una flota demasiado grande en caso de fallo.\n§R¡Esto comprometerá cualquier flota que se esté utilizando para investigar el proyecto!§!"
   
-  giga_blokkat.10022.name:99 "Intergalactic Anomaly Probing Report"
-  giga_blokkat.10022.desc:99 "Our §YSupermassive E.H.O.F.§!'s staff brings... ominous news.\n\nWhile our uncrewed science ship has successfully made it to the anomaly, it could only spend a few precious seconds probing it before being destroyed by cataclysmic energies. And the data it sent back has confirmed our empire's worst fear: the object is not natural.\n\nIt is a ship! More precisely a gargantuan vessel of utterly alien design, comprised of large concentric rings arranged around some sort of high-energy core.\n\nUnfortunately there was not enough time to understand what the purpose of its components were and most of the data beamed back is currently unusable due to a critical lack of context. Fortunately our scientists believe that we might be able to complete our analysis once the anomaly actually arrives, but for now, we should prepare for the worst."
+  giga_blokkat.10022.name:0 "Informe de Sondeo de la Anomalía Interestelar"
+  giga_blokkat.10022.desc:0 "El personal de nuestro §YE.H.O.F. Supermasivo§! trae... noticias ominosas.\n\nAunque nuestra nave científica no tripulada logró llegar a la anomalía, solo pudo pasar unos preciosos segundos sondeándola antes de ser destruida por energías cataclísmicas. Y los datos que envió de regreso han confirmado el peor temor de nuestro imperio: el objeto no es natural.\n\n¡Es una nave! Más precisamente, una nave gigantesca de diseño completamente alienígena, compuesta de grandes anillos concéntricos dispuestos alrededor de algún tipo de núcleo de alta energía.\n\nDesafortunadamente, no hubo suficiente tiempo para comprender cuál era el propósito de sus componentes y la mayoría de los datos transmitidos actualmente no se pueden usar debido a una falta crítica de contexto. Afortunadamente, nuestros científicos creen que podríamos completar nuestro análisis una vez que la anomalía llegue realmente, pero por ahora, debemos prepararnos para lo peor."
   
-  giga_blokkat.10023.name:99 "Intergalactic Anomaly Battle Report"
-  giga_blokkat.10023.desc:99 "Going where no [Root.GetSpeciesName] has gone before, our warfleet streaks through intergalactic space, riding the pocket of infinitely-twisted space woven by our §YSupermassive E.H.O.F.§! at speeds unseen.\n\nWithin mere days the anomaly comes into sight, and, to everyone's utter dismay and surprise, it is... small? No more than a few hundred kilometers across, it could be encompassed within the breadth of our warfleet several times over. Whatever the case, it matters not as the fleet opens fire, cannons big and small showering the anomaly in ordnance powerful enough to level most of [ROOT.Capital.GetName].\n\nBut nothing happens. The anomaly, utterly unfazed by our intervention, continues onwards, our fleet struggling to catch up. And so we open fire once more, but this time, there is a response as the anomaly suddenly stops. In an instant, energy readings spike, and... all is quiet.\n\nOur high command scrambles to regain contact, receiving nothing but silence. The conclusion is clear: whatever, or whoever that thing is, we must be ready to deploy everything's we've got against it when it finally arrives."
-  giga_blokkat.10023.a:99 "We will overcome. Prepare to fight."
-  giga_blokkat.10023.b:99 "Ensure that our grand projects are ready in time."
-  giga_blokkat.10023.c:99 "Invest more in technological progress."
-  giga_blokkat.10023.d:99 "We shall wait and see."
+  giga_blokkat.10023.name:0 "Informe de Batalla de la Anomalía Interestelar"
+  giga_blokkat.10023.desc:0 "Yendo donde ningún [Root.GetSpeciesName] ha ido antes, nuestra flota de guerra atraviesa el espacio interestelar, cabalgando el bolsillo de espacio infinitamente retorcido tejido por nuestro §YE.H.O.F. Supermasivo§! a velocidades nunca vistas.\n\nEn cuestión de días, la anomalía aparece a la vista y, para sorpresa y consternación de todos, es... ¿pequeña? No más de unos pocos cientos de kilómetros de ancho, podría ser englobada dentro del alcance de nuestra flota varias veces. Sea cual sea el caso, no importa, ya que la flota abre fuego, cañones grandes y pequeños bañando la anomalía en municiones lo suficientemente poderosas como para nivelar la mayor parte de [ROOT.Capital.GetName].\n\nPero no pasa nada. La anomalía, sin inmutarse por nuestra intervención, continúa su avance, nuestra flota luchando por mantenerse al día. Y así, abrimos fuego una vez más, pero esta vez hay una respuesta cuando la anomalía se detiene de repente. En un instante, las lecturas de energía se disparan y... todo queda en silencio.\n\nNuestro alto mando se apresura a restablecer el contacto, pero solo recibe silencio. La conclusión es clara: sea lo que sea, o quienquiera que sea esa cosa, debemos estar preparados para desplegar todo lo que tenemos contra ella cuando finalmente llegue."
+  giga_blokkat.10023.a:0 "Superaremos esto. Preparémonos para luchar."
+  giga_blokkat.10023.b:0 "Asegurémonos de que nuestros grandes proyectos estén listos a tiempo."
+  giga_blokkat.10023.c:0 "Invirtamos más en el progreso tecnológico."
+  giga_blokkat.10023.d:0 "Esperemos y veamos."
   
-  giga_blokkat.10024.name:99 "Intergalactic Anomaly Bombing Report"
-  giga_blokkat.10024.desc:99 "Our §YSupermassive E.H.O.F.§!'s staff reports that they have successfully flung an explosive device towards the anomaly in intergalactic space, yielding... mitigated results.\n\nThe anomaly's course remains completely unchanged despite being impacted in a way that should have knocked it away from our galaxy, however its speed has been somewhat reduced which should hopefully buy us some more time to prepare for its arrival.\n\nInterestingly however, this slowdown occurred some time after the actual impact rather than directly afterwards, leading some to wonder if it might be the result of something, or someone, inside the anomaly reacting to the impact as opposed to being forcefully decelerated by it.\n\nRegardless, we estimate that this has bought us an additional §Yfive years§! to prepare for the arrival..."
-  giga_blokkat.10024.a:99 "Splendid."
+  giga_blokkat.10024.name:0 "Informe de Bombardeo de la Anomalía Interestelar"
+  giga_blokkat.10024.desc:0 "El personal de nuestro §YE.H.O.F. Supermasivo§! informa que han lanzado con éxito un dispositivo explosivo hacia la anomalía en el espacio interestelar, obteniendo... resultados mitigados.\n\nEl curso de la anomalía permanece completamente sin cambios a pesar de haber sido impactada de una manera que debería haberla desviado de nuestra galaxia; sin embargo, su velocidad se ha reducido un poco, lo que esperamos nos dé más tiempo para prepararnos para su llegada.\n\nSin embargo, esta desaceleración ocurrió algún tiempo después del impacto real en lugar de inmediatamente después, lo que lleva a algunos a preguntarse si podría ser el resultado de algo, o alguien, dentro de la anomalía reaccionando al impacto en lugar de ser desacelerado a la fuerza por él.\n\nEn cualquier caso, estimamos que esto nos ha dado un §Ycinco años§! adicionales para prepararnos para la llegada..."
+  giga_blokkat.10024.a:0 "Espléndido."
   
-  preparing_to_fight_blokkats:99 "Intergalactic Anomaly - Military Preparation"
-  preparing_to_tech_blokkats:99 "Intergalactic Anomaly - Technological Preparation"
-  preparing_to_mega_blokkats:99 "Intergalactic Anomaly - Engineering Preparation"
+  preparing_to_fight_blokkats:0 "Anomalía Interestelar - Preparación Militar"
+  preparing_to_tech_blokkats:0 "Anomalía Interestelar - Preparación Tecnológica"
+  preparing_to_mega_blokkats:0 "Anomalía Interestelar - Preparación de Ingeniería"
   
-  probed_blokkats_early:99 "Blokkat Probing Data"
-  fought_blokkats_early:99 "Blokkat Combat Data"
+  probed_blokkats_early:0 "Datos de Sondeo de los Blokkats"
+  fought_blokkats_early:0 "Datos de Combate de los Blokkats"
   
-  giga_blokkat.10025.name:99 "Intergalactic Anomaly Combat Data Analysed"
-  giga_blokkat.10025.desc:99 "Following the Blokkats' arrival within our galaxy, our Research Bureau has been hard at work studying what little data we managed to acquire from our brief combat stunt with the Blokkat-Vester in intergalactic space.\n\nBy crossing it with the flood of data coming in from current Blokkat studies, we should be able to gain a slight military edge against Blokkat vessels."
-  giga_blokkat.10025.a:99 "Excellent. So it wasn't all for nothing."
+  giga_blokkat.10025.name:0 "Datos de Combate de la Anomalía Interestelar Analizados"
+  giga_blokkat.10025.desc:0 "Tras la llegada de los Blokkats a nuestra galaxia, nuestra Oficina de Investigación ha estado trabajando arduamente para estudiar los pocos datos que logramos adquirir durante nuestro breve enfrentamiento con el Blokkat-Vester en el espacio interestelar.\n\nAl cruzarlo con la inundación de datos provenientes de los estudios actuales de los Blokkats, deberíamos poder obtener una ligera ventaja militar contra las naves Blokkat."
+  giga_blokkat.10025.a:0 "Excelente. Entonces no fue todo en vano."
   
-  giga_blokkat.10026.name:99 "Intergalactic Anomaly Probing Data Analysed"
-  giga_blokkat.10026.desc:99 "Following the Blokkats' arrival within our galaxy, our Research Bureau has been hard at work studying the data our probe managed to acquire when it came into contact with the intergalactic anomaly.\n\nBy crossing it with the flood of data coming in from current Blokkat studies, we should be able to understand the Blokkats at least a little better."
-  giga_blokkat.10026.a:99 "Delightful!"
+  giga_blokkat.10026.name:0 "Datos de Sondeo de la Anomalía Interestelar Analizados"
+  giga_blokkat.10026.desc:0 "Tras la llegada de los Blokkats a nuestra galaxia, nuestra Oficina de Investigación ha estado trabajando arduamente para estudiar los datos que nuestra sonda logró adquirir cuando entró en contacto con la anomalía interestelar.\n\nAl cruzarlo con la inundación de datos provenientes de los estudios actuales de los Blokkats, deberíamos poder comprender a los Blokkats al menos un poco mejor."
+  giga_blokkat.10026.a:0 "¡Delicioso!"
   
   
   #########################################
@@ -9985,7 +9985,7 @@
   sa_lootbox_6:0 "$sa_lootbox$§BCompuestos Avispones Recuperados§!."
   sa_lootbox_7:0 "$sa_lootbox$§BCompuestos Acechadores Recuperados§!."
   sa_lootbox_8:0 "$sa_lootbox$§BCompuestos Humilladores Recuperados§!."
-  sa_lootbox_9:99 "$sa_lootbox$§BSalvaged Compound Apexes§!."
+  sa_lootbox_9:0 "$sa_lootbox$§BApexes Compuestas Recuperadas§!."
   sa_lootbox_10:0 "$sa_lootbox$§BCompuestos Soberanos Recuperados§!."
   annihilator_dialog.010.response:0 "Esto ayudará, ¡gracias!"
   annihilator_dialog.010.tooltip.a:0 "§BCompuestos Flota de Avispones Recuperados§!"
@@ -10801,7 +10801,7 @@
   
   FLAG_CATEGORY_flusionian:0 "Misceláneo"
   
-  initial_flusion_buff_improbable:99 "Improbable Kaiser"
+  initial_flusion_buff_improbable:0 "Improbable Kaiser"
   initial_flusion_buff_improbable_desc:0 "El Kaiser lo quiere."
   
   giga_katzenartig_enabled_improbable:0 "£menu_katzen_i£Imperio Katzenartig\n(§BEl Kaiser de la Improbabilidad Infinita§!)\nEl Imperio Katzenartig §Gsiempre§! aparecerá después del juego medio, y será §RINFINITAMENTE§! más poderoso, recibiendo las siguientes mejoras:\n§Y+6000% Daño de Armas\n+6000% HP de Escudo\n+6000% HP de Blindaje\n+6000% HP de Casco\n+4000% Daño del Ejército\n+4000% Salud del Ejército\n+4000% Moral del Ejército\n+500% Velocidad de Construcción de Megaestructuras\n+800% Cadencia de Fuego\n+800% Velocidad de la Nave\n+30 Evasión Base\n+150% Evasión\n+1000% Daño de Bombardeo Orbital\n-200% Daño de Bombardeo Orbital del Planeta§!\n§YLas Estaciones Estelares siempre ven a través de la Ocultación§!\n§Y-75% Costo de Nave/Megaestructura§!\n§YLa Investigación de Katzen escalará mucho, mucho más rápido de lo habitual§!\n\n§REL KAISER DECLARARÁ LA GUERRA A TODA LA GALAXIA INMEDIATAMENTE DESPUÉS DE APARECER.§!\n§RLOS PARTISANOS NO APARECERÁN.§!\n§RBÁSICAMENTE IMPOSIBLE.\nESTO ABSOLUTAMENTE NO ESTÁ EQUILIBRADO.\n¡PARA USAR CON MODS EXTREMADAMENTE PODEROSOS!§!""
@@ -10953,17 +10953,17 @@
   
   giga_wary_manage_tooltip:0 "§HManeja La Precaución de los Katzen§!\nAunque la Precaución se reduce naturalmente, algunos sobornos bien colocados pueden ayudar a acelerar el proceso."
   
-  MESSAGE_GIGA_KATZEN_RESISTANCE_TITLE:99 "Flusionian Resistance Action Available"
-  giga_katzen_resistance_funds_text:99 "Funds can now be sent to the Roqualians."
-  giga_katzen_resistance_influence_text:99 "Our influence can now be exerted within the Imperium."
-  giga_katzen_resistance_raid_text:99 "Katzen warehouses can now be raded."
-  giga_katzen_resistance_weapons_text:99 "Weaponry can now be sent to the Roqualians."
-  giga_katzen_wariness_bribe_text:99 "Katzen officials can now be bribed."
-  giga_katzen_wariness_influence_text:99 "The Kaiser can now be reassured."
-  giga_katzen_wariness_resource_text:99 "Resistance Resources can now be turned in."
+  MESSAGE_GIGA_KATZEN_RESISTANCE_TITLE:0 "Acción de Resistencia Flusioniana Disponible"
+  giga_katzen_resistance_funds_text:0 "Ahora se pueden enviar fondos a los Roqualians."
+  giga_katzen_resistance_influence_text:0 "Ahora se puede ejercer nuestra influencia dentro del Imperium."
+  giga_katzen_resistance_raid_text:0 "Ahora se pueden asaltar los almacenes de Katzen."
+  giga_katzen_resistance_weapons_text:0 "Ahora se puede enviar armamento a los Roqualians."
+  giga_katzen_wariness_bribe_text:0 "Ahora se pueden sobornar a los oficiales de Katzen."
+  giga_katzen_wariness_influence_text:0 "Ahora se puede tranquilizar al Kaiser."
+  giga_katzen_wariness_resource_text:0 "Ahora se pueden entregar los Recursos de Resistencia."
   
-  MESSAGE_GIGA_KATZEN_SHIPS_TITLE:99 "Katzen Ships Available"
-  giga_katzen_ships_message_text:99 "Ships can now be purchased from the Katzenartig Imperium."
+  MESSAGE_GIGA_KATZEN_SHIPS_TITLE:0 "Naves de Katzen Disponibles"
+  giga_katzen_ships_message_text:0 "Ahora se pueden comprar naves del Imperium Katzenartig."
   
   #intact
   kaiser_moon_barrel_tooltip:0 "§YRiesigekatzenwaffe§!\n\n§GFuncional | Sin penalizaciones por daño§!\n\nRequisitos de Sabotaje:\n§HActividad Partisana Significativa en Mercurreich§!\n§HActividad Partisana Significativa en Geschwollen§!\n\n§LEl arma principal de la Luna Kaiser es un cañón de riel titánico. Basado en antiguos diseños Katzen para armamento planetario, acelera un proyectil extremadamente denso cerca de la velocidad de la luz. El proyectil contiene la energía de varios miles de millones de cabezas nucleares concentradas en un solo punto, haciéndolo increíblemente letal.§!"
@@ -11936,17 +11936,17 @@
   
   giga_galactic_core_aeternum_2:0 "£menu_aet_2£Aeternum (§BAzure Aeternum§!)\nAeternum será §Hmucho más poderoso§!, recibiendo los siguientes beneficios:\n§Y+100% Daño de Armas\n+100% Cadencia de Disparo\n+100% HP de Escudo\n+100% HP de Blindaje\n+100% HP de Casco\n+20% Velocidad de Nave\n+100% Daño de Ejército\n+100% Salud de Ejército\n+100% Moral de Ejército\n+20% Evasión\n+50% Velocidad de Construcción de Megaestructuras§!\n\n§BSus flotas tendrán aproximadamente un 50% más de naves pesadas\nSe despertarán más rápido\nRetrasar su despertar será menos efectivo\nLos psicofabricadores se construirán con más frecuencia y tendrán un límite de 20 en lugar de 10§!\n\nComenzarán con aproximadamente §Y100 millones§! de poder de flota.\n\n§H¡PARA USO CON MODS PODEROSOS!\n\n$aeternum_spawn_mechanics$"
   
-  aeternum_nerf_1:99 "Alpha Aeternite Nerfs"
-  aeternum_nerf_1_desc:99 "Seems like the downfall hit Aeternum quite hard..."
+  aeternum_nerf_1:0 "Alpha Aeternite Nerfs"
+  aeternum_nerf_1_desc:0 "Parece que la caída golpeó bastante fuerte a Aeternum..."
   
   aeternum_buff_3:0 "Beneficios de Omega Aeternita"
   aeternum_buff_3_desc:0 "\"Oh, eso no es bueno\"\n-CalamityTime"
   
   aeternum_buff_4:0 "Beneficios de Lux Aeternita"
-  aeternum_buff_4_desc:0 "\"Ay, la luz sea contigo\""
+  aeternum_buff_4_desc:0 "\"Woe, la luz sea contigo\""
   
   aeternum_buff_5:99 "Lux Aeternite Buffs"
-  aeternum_buff_5_desc:99 "\"Woe, light be upon you\""
+  aeternum_buff_5_desc:0 "\"Woe, que la luz esté contigo.\""
   
   aeternum_balance:0 "Equilibrio Aeternita"
   aeternum_balance_desc:0 "¿Son los Hexágonos el Mejoragon?"
@@ -13793,8 +13793,8 @@
   
   dormant_aeternum_governor:0 "Supervisor"
   
-  pc_giga_asteroid_artillery:99 "Asteroid Artillery"
-  pc_giga_asteroid_artillery_desc:99 "This Asteroid has been converted into a defensive weapon."
+  pc_giga_asteroid_artillery:0 "Asteroide de Combate"
+  pc_giga_asteroid_artillery_desc:0 "Este asteroide ha sido convertido en un arma defensiva."
   
   adds_4_asteroid_artillery_points:0 "Puntos de Mejora de Asteroide de Combate: §G+4§!\nHP de Corbeta de Ataque: §G+80%§!\nDañopara Armas deCorbeta de Ataque: §G+80%§!\nCapacidad de Corbeta de Ataque: §G+100%§!"
   
@@ -15645,52 +15645,52 @@
   
   #Menu
   giga_ruined_ships_disabled:0 "£menu_disabled£Naves de Guerra Naufragadas\n¿Deberían poder aparecer diversas naves como Acorazados, Titanes, Gigantes y Colosos (con los DLCs apropiados) como megaestructuras arruinadas que pueden ser reparadas cuando se investigue la tecnología apropiada?\n\nLa frecuencia de las naves arruinadas se puede ajustar usando los botones a la izquierda."
-  giga_ruined_ships_disabled_juggs:99 "£menu_disabled£Wrecked Juggernauts\nWrecked Juggernauts §RCANNOT§! spawn"
-  giga_ruined_ships_disabled_colossi:99 "£menu_disabled£Wrecked colossi\nWrecked colossi §RCANNOT§! spawn"
-  giga_ruined_ships_disabled_titan:99 "£menu_disabled£Wrecked Titans\nWrecked Titans §RCANNOT§! spawn"
-  giga_ruined_ships_disabled_battle:99 "£menu_disabled£Wrecked Battleships\nWrecked Battleships §RCANNOT§! spawn"
+  giga_ruined_ships_disabled_juggs:0 "£menu_disabled£Naves Naufragadas Juggernauts\nLas Naves Naufragadas Juggernauts §RCANNOT§! no pueden aparecer"
+  giga_ruined_ships_disabled_colossi:0 "£menu_disabled£Naves Naufragadas Colosos\nLas Naves Naufragadas Colosos §RCANNOT§! no pueden aparecer"
+  giga_ruined_ships_disabled_titan:0 "£menu_disabled£Naves Naufragadas Titanes\nLas Naves Naufragadas Titanes §RCANNOT§! no pueden aparecer"
+  giga_ruined_ships_disabled_battle:0 "£menu_disabled£Naves Naufragadas Acorazados\nLas Naves Naufragadas Acorazados §RCANNOT§! no pueden aparecer"
   
-  giga_ruined_ships_enabled:0 "£menu_enabled£Naves de Guerra Naufragadas\n¿Deberían poder aparecer diversas naves como Acorazados, Titanes, Gigantes y Colosos (con los DLCs apropiados) como megaestructuras arruinadas que pueden ser reparadas cuando se investigue la tecnología apropiada?\n\nLa frecuencia de las naves arruinadas se puede ajustar usando los botones a la izquierda."
-  giga_ruined_ships_enabled_juggs:99 "£menu_enabled£Wrecked Juggernauts\nWrecked Juggernauts §GCAN§! spawn"
-  giga_ruined_ships_enabled_colossi:99 "£menu_enabled£Wrecked colossi\nWrecked colossi §GCAN§! spawn"
-  giga_ruined_ships_enabled_titan:99 "£menu_enabled£Wrecked Titans\nWrecked Titans §GCAN§! spawn"
-  giga_ruined_ships_enabled_battle:99 "£menu_enabled£Wrecked Battleships\nWrecked Battleships §GCAN§! spawn"
+  giga_ruined_ships_enabled:0 "£menu_enabled£Naves de Guerra Naufragadas\n¿Deberían poder aparecer diversas naves como Acorazados, Titanes, Gigantes y Colosos (con los DLCs apropiados) como megaestructuras naufragadas que pueden ser reparadas cuando se investigue la tecnología apropiada?\n\nLa frecuencia de las naves naufragadas se puede ajustar usando los botones a la izquierda."
+  giga_ruined_ships_enabled_juggs:0 "£menu_enabled£Naves Naufragadas Juggernauts\nLas Naves Naufragadas Juggernauts §GCAN§! pueden aparecer"
+  giga_ruined_ships_enabled_colossi:0 "£menu_enabled£Naves Naufragadas Colosos\nLas Naves Naufragadas Colosos §GCAN§! pueden aparecer"
+  giga_ruined_ships_enabled_titan:0 "£menu_enabled£Naves Naufragadas Titanes\nLas Naves Naufragadas Titanes §GCAN§! pueden aparecer"
+  giga_ruined_ships_enabled_battle:0 "£menu_enabled£Naves Naufragadas Acorazados\nLas Naves Naufragadas Acorazados §GCAN§! pueden aparecer"
   
   giga_ruined_ships_divide_2:0 "§RDividir la Frecuencia de Naves de Guerra Naufragadas por 2§!\n\n§BFrecuencia Actual de Naves de Guerra Naufragadas§!: §Y[global_event_country.giga_ruined_warships_perc]%§!\n\n$wrecked_warship_perc_desc$"
-  giga_ruined_ships_divide_2_juggs:99 "§RDivide Wrecked Juggernaut Frequency by 2§!\n\n§BCurrent Wrecked Juggernaut Frequency§!: §Y[global_event_country.giga_ruined_warships_perc_juggs]%§!\n\n$wrecked_warship_perc_desc_2$"
-  giga_ruined_ships_divide_2_colossi:99 "§RDivide Wrecked colossi Frequency by 2§!\n\n§BCurrent Wrecked colossi Frequency§!: §Y[global_event_country.giga_ruined_warships_perc_colossi]%§!\n\n$wrecked_warship_perc_desc_2$"
-  giga_ruined_ships_divide_2_titan:99 "§RDivide Wrecked Titan Frequency by 2§!\n\n§BCurrent Wrecked Titan Frequency§!: §Y[global_event_country.giga_ruined_warships_perc_titan]%§!\n\n$wrecked_warship_perc_desc_2$"
-  giga_ruined_ships_divide_2_battle:99 "§RDivide Wrecked Battleship Frequency by 2§!\n\n§BCurrent Wrecked Battleship Frequency§!: §Y[global_event_country.giga_ruined_warships_perc_battle]%§!\n\n$wrecked_warship_perc_desc_2$"
+  giga_ruined_ships_divide_2_juggs:0 "§RDividir la Frecuencia de Naves Naufragadas Juggernauts por 2§!\n\n§BFrecuencia Actual de Naves Naufragadas Juggernauts§!: §Y[global_event_country.giga_ruined_warships_perc_juggs]%§!\n\n$wrecked_warship_perc_desc_2$"
+  giga_ruined_ships_divide_2_colossi:0 "§RDividir la Frecuencia de Naves Naufragadas Colosos por 2§!\n\n§BFrecuencia Actual de Naves Naufragadas Colosos§!: §Y[global_event_country.giga_ruined_warships_perc_colossi]%§!\n\n$wrecked_warship_perc_desc_2$"
+  giga_ruined_ships_divide_2_titan:0 "§RDividir la Frecuencia de Naves Naufragadas Titanes por 2§!\n\n§BFrecuencia Actual de Naves Naufragadas Titanes§!: §Y[global_event_country.giga_ruined_warships_perc_titan]%§!\n\n$wrecked_warship_perc_desc_2$"
+  giga_ruined_ships_divide_2_battle:0 "§RDividir la Frecuencia de Naves Naufragadas Acorazados por 2§!\n\n§BFrecuencia Actual de Naves Naufragadas Acorazados§!: §Y[global_event_country.giga_ruined_warships_perc_battle]%§!\n\n$wrecked_warship_perc_desc_2$"
   
   giga_ruined_ships_subtract_1:0 "§RReducir la Frecuencia de Naves de Guerra Naufragadas en un 10%§!\n\n§BFrecuencia Actual de Naves de Guerra Naufragadas§!: §Y[global_event_country.giga_ruined_warships_perc]%§!\n\n$wrecked_warship_perc_desc$"
-  giga_ruined_ships_subtract_1_juggs:99 "§RReduce Wrecked Juggernaut Frequency by 10%§!\n\n§BCurrent Wrecked Juggernaut Frequency§!: §Y[global_event_country.giga_ruined_warships_perc_juggs]%§!\n\n$wrecked_warship_perc_desc_2$"
-  giga_ruined_ships_subtract_1_colossi:99 "§RReduce Wrecked colossi Frequency by 10%§!\n\n§BCurrent Wrecked colossi Frequency§!: §Y[global_event_country.giga_ruined_warships_perc_colossi]%§!\n\n$wrecked_warship_perc_desc_2$"
-  giga_ruined_ships_subtract_1_titan:99 "§RReduce Wrecked Titan Frequency by 10%§!\n\n§BCurrent Wrecked Titan Frequency§!: §Y[global_event_country.giga_ruined_warships_perc_titan]%§!\n\n$wrecked_warship_perc_desc_2$"
-  giga_ruined_ships_subtract_1_battle:99 "§RReduce Wrecked Battleship Frequency by 10%§!\n\n§BCurrent Wrecked Battleship Frequency§!: §Y[global_event_country.giga_ruined_warships_perc_battle]%§!\n\n$wrecked_warship_perc_desc_2$"
+  giga_ruined_ships_subtract_1_juggs:0 "§RReducir la Frecuencia de Naves Naufragadas Juggernauts en un 10%§!\n\n§BFrecuencia Actual de Naves Naufragadas Juggernauts§!: §Y[global_event_country.giga_ruined_warships_perc_juggs]%§!\n\n$wrecked_warship_perc_desc_2$"
+  giga_ruined_ships_subtract_1_colossi:0 "§RReducir la Frecuencia de Naves Naufragadas Colosos en un 10%§!\n\n§BFrecuencia Actual de Naves Naufragadas Colosos§!: §Y[global_event_country.giga_ruined_warships_perc_colossi]%§!\n\n$wrecked_warship_perc_desc_2$"
+  giga_ruined_ships_subtract_1_titan:0 "§RReducir la Frecuencia de Naves Naufragadas Titanes en un 10%§!\n\n§BFrecuencia Actual de Naves Naufragadas Titanes§!: §Y[global_event_country.giga_ruined_warships_perc_titan]%§!\n\n$wrecked_warship_perc_desc_2$"
+  giga_ruined_ships_subtract_1_battle:0 "§RReducir la Frecuencia de Naves Naufragadas Acorazados en un 10%§!\n\n§BFrecuencia Actual de Naves Naufragadas Acorazados§!: §Y[global_event_country.giga_ruined_warships_perc_battle]%§!\n\n$wrecked_warship_perc_desc_2$"
   
   giga_ruined_ship_perc_low_enough:0 "La Frecuencia de Naves de Guerra Naufragadas ya está en 10 o menos."
-  giga_ruined_ship_perc_low_enough_juggs:99 "Wrecked Juggernaut Frequency is already at 10 or less."
-  giga_ruined_ship_perc_low_enough_colossi:99 "Wrecked colossi Frequency is already at 10 or less."
-  giga_ruined_ship_perc_low_enough_titan:99 "Wrecked Titan Frequency is already at 10 or less."
-  giga_ruined_ship_perc_low_enough_battle:99 "Wrecked Battleship Frequency is already at 10 or less."
+  giga_ruined_ship_perc_low_enough_juggs:0 "La Frecuencia de Naves Naufragadas Juggernauts ya está en 10 o menos."
+  giga_ruined_ship_perc_low_enough_colossi:0 "La Frecuencia de Naves Naufragadas Colosos ya está en 10 o menos."
+  giga_ruined_ship_perc_low_enough_titan:0 "La Frecuencia de Naves Naufragadas Titanes ya está en 10 o menos."
+  giga_ruined_ship_perc_low_enough_battle:0 "La Frecuencia de Naves Naufragadas Acorazados ya está en 10 o menos."
   
   giga_ruined_ships_reset:0 "§YRestablecer la Frecuencia de Naves de Guerra Naufragadas§!\n\n§BFrecuencia Actual de Naves de Guerra Naufragadas§!: §Y[global_event_country.giga_ruined_warships_perc]%§!\n\n$wrecked_warship_perc_desc$"
-  giga_ruined_ships_reset_juggs:99 "§YReset Wrecked Juggernaut Frequency§!\n\n§BCurrent Wrecked Juggernaut Frequency§!: §Y[global_event_country.giga_ruined_warships_perc_juggs]%§!\n\n$wrecked_warship_perc_desc_2$"
-  giga_ruined_ships_reset_colossi:99 "§YReset Wrecked colossi Frequency§!\n\n§BCurrent Wrecked colossi Frequency§!: §Y[global_event_country.giga_ruined_warships_perc_colossi]%§!\n\n$wrecked_warship_perc_desc_2$"
-  giga_ruined_ships_reset_titan:99 "§YReset Wrecked Titan Frequency§!\n\n§BCurrent Wrecked Titan Frequency§!: §Y[global_event_country.giga_ruined_warships_perc_titan]%§!\n\n$wrecked_warship_perc_desc_2$"
-  giga_ruined_ships_reset_battle:99 "§YReset Wrecked Battleship Frequency§!\n\n§BCurrent Wrecked Battleship Frequency§!: §Y[global_event_country.giga_ruined_warships_perc_battle]%§!\n\n$wrecked_warship_perc_desc_2$"
+  giga_ruined_ships_reset_juggs:0 "§YRestablecer la Frecuencia de Naves Naufragadas Juggernauts§!\n\n§BFrecuencia Actual de Naves Naufragadas Juggernauts§!: §Y[global_event_country.giga_ruined_warships_perc_juggs]%§!\n\n$wrecked_warship_perc_desc_2$"
+  giga_ruined_ships_reset_colossi:0 "§YRestablecer la Frecuencia de Naves Naufragadas Colosos§!\n\n§BFrecuencia Actual de Naves Naufragadas Colosos§!: §Y[global_event_country.giga_ruined_warships_perc_colossi]%§!\n\n$wrecked_warship_perc_desc_2$"
+  giga_ruined_ships_reset_titan:0 "§YRestablecer la Frecuencia de Naves Naufragadas Titanes§!\n\n§BFrecuencia Actual de Naves Naufragadas Titanes§!: §Y[global_event_country.giga_ruined_warships_perc_titan]%§!\n\n$wrecked_warship_perc_desc_2$"
+  giga_ruined_ships_reset_battle:0 "§YRestablecer la Frecuencia de Naves Naufragadas Acorazados§!\n\n§BFrecuencia Actual de Naves Naufragadas Acorazados§!: §Y[global_event_country.giga_ruined_warships_perc_battle]%§!\n\n$wrecked_warship_perc_desc_2$"
   
   giga_ruined_ships_add_1:0 "§GAumentar la Frecuencia de Naves de Guerra Naufragadas en un 10%§!\n\n§BFrecuencia Actual de Naves de Guerra Naufragadas§!: §Y[global_event_country.giga_ruined_warships_perc]%§!\n\n$wrecked_warship_perc_desc$"
-  giga_ruined_ships_add_1_juggs:99 "§GIncrease Wrecked Juggernaut Frequency by 10%§!\n\n§BCurrent Wrecked Juggernaut Frequency§!: §Y[global_event_country.giga_ruined_warships_perc_juggs]%§!\n\n$wrecked_warship_perc_desc_2$"
-  giga_ruined_ships_add_1_colossi:99 "§GIncrease Wrecked colossi Frequency by 10%§!\n\n§BCurrent Wrecked colossi Frequency§!: §Y[global_event_country.giga_ruined_warships_perc_colossi]%§!\n\n$wrecked_warship_perc_desc_2$"
-  giga_ruined_ships_add_1_titan:99 "§GIncrease Wrecked Titan Frequency by 10%§!\n\n§BCurrent Wrecked Titan Frequency§!: §Y[global_event_country.giga_ruined_warships_perc_titan]%§!\n\n$wrecked_warship_perc_desc_2$"
-  giga_ruined_ships_add_1_battle:99 "§GIncrease Wrecked Battleship Frequency by 10%§!\n\n§BCurrent Wrecked Battleship Frequency§!: §Y[global_event_country.giga_ruined_warships_perc_battle]%§!\n\n$wrecked_warship_perc_desc_2$"
+  giga_ruined_ships_add_1_juggs:0 "§GAumentar la Frecuencia de Naves Naufragadas Juggernauts en un 10%§!\n\n§BFrecuencia Actual de Naves Naufragadas Juggernauts§!: §Y[global_event_country.giga_ruined_warships_perc_juggs]%§!\n\n$wrecked_warship_perc_desc_2$"
+  giga_ruined_ships_add_1_colossi:0 "§GAumentar la Frecuencia de Naves Naufragadas Colosos en un 10%§!\n\n§BFrecuencia Actual de Naves Naufragadas Colosos§!: §Y[global_event_country.giga_ruined_warships_perc_colossi]%§!\n\n$wrecked_warship_perc_desc_2$"
+  giga_ruined_ships_add_1_titan:0 "§GAumentar la Frecuencia de Naves Naufragadas Titanes en un 10%§!\n\n§BFrecuencia Actual de Naves Naufragadas Titanes§!: §Y[global_event_country.giga_ruined_warships_perc_titan]%§!\n\n$wrecked_warship_perc_desc_2$"
+  giga_ruined_ships_add_1_battle:0 "§GAumentar la Frecuencia de Naves Naufragadas Acorazados en un 10%§!\n\n§BFrecuencia Actual de Naves Naufragadas Acorazados§!: §Y[global_event_country.giga_ruined_warships_perc_battle]%§!\n\n$wrecked_warship_perc_desc_2$"
   
   giga_ruined_ships_multiply_2:0 "§GMultiplicar la Frecuencia de Naves de Guerra Naufragadas por 2§!\n\n§BFrecuencia Actual de Naves de Guerra Naufragadas§!: §Y[global_event_country.giga_ruined_warships_perc]%§!\n\n$wrecked_warship_perc_desc$"
-  giga_ruined_ships_multiply_2_juggs:99 "§GMultiply Wrecked Juggernaut Frequency by 2§!\n\n§BCurrent Wrecked Juggernaut Frequency§!: §Y[global_event_country.giga_ruined_warships_perc_juggs]%§!\n\n$wrecked_warship_perc_desc_2$"
-  giga_ruined_ships_multiply_2_colossi:99 "§GMultiply Wrecked colossi Frequency by 2§!\n\n§BCurrent Wrecked colossi Frequency§!: §Y[global_event_country.giga_ruined_warships_perc_colossi]%§!\n\n$wrecked_warship_perc_desc_2$"
-  giga_ruined_ships_multiply_2_titan:99 "§GMultiply Wrecked Titan Frequency by 2§!\n\n§BCurrent Wrecked Titan Frequency§!: §Y[global_event_country.giga_ruined_warships_perc_titan]%§!\n\n$wrecked_warship_perc_desc_2$"
-  giga_ruined_ships_multiply_2_battle:99 "§GMultiply Wrecked Battleship Frequency by 2§!\n\n§BCurrent Wrecked Battleship Frequency§!: §Y[global_event_country.giga_ruined_warships_perc_battle]%§!\n\n$wrecked_warship_perc_desc_2$"
+  giga_ruined_ships_multiply_2_juggs:0 "§GMultiplicar la Frecuencia de Naves Naufragadas Juggernauts por 2§!\n\n§BFrecuencia Actual de Naves Naufragadas Juggernauts§!: §Y[global_event_country.giga_ruined_warships_perc_juggs]%§!\n\n$wrecked_warship_perc_desc_2$"
+  giga_ruined_ships_multiply_2_colossi:0 "§GMultiplicar la Frecuencia de Naves Naufragadas Colosos por 2§!\n\n§BFrecuencia Actual de Naves Naufragadas Colosos§!: §Y[global_event_country.giga_ruined_warships_perc_colossi]%§!\n\n$wrecked_warship_perc_desc_2$"
+  giga_ruined_ships_multiply_2_titan:0 "§GMultiplicar la Frecuencia de Naves Naufragadas Titanes por 2§!\n\n§BFrecuencia Actual de Naves Naufragadas Titanes§!: §Y[global_event_country.giga_ruined_warships_perc_titan]%§!\n\n$wrecked_warship_perc_desc_2$"
+  giga_ruined_ships_multiply_2_battle:0 "§GMultiplicar la Frecuencia de Naves Naufragadas Acorazados por 2§!\n\n§BFrecuencia Actual de Naves Naufragadas Acorazados§!: §Y[global_event_country.giga_ruined_warships_perc_battle]%§!\n\n$wrecked_warship_perc_desc_2$"
   
   giga_ruined_ships_display:99 "§V[global_event_country.giga_ruined_warships_perc]§!"
   giga_ruined_ships_display_juggs:99 "§V[global_event_country.giga_ruined_warships_perc_juggs]§!"
@@ -15700,7 +15700,7 @@
   # giga_ruined_ships_display_back:0 "§W88888§!"
   
   wrecked_warship_perc_desc:0 "Esto configura cuántas Naves de Guerra Naufragadas aparecen. Pueden ser reparadas como Megaestructuras, otorgando algunas naves por un precio económico. Esto no hace nada si las Naves de Guerra Naufragadas están deshabilitadas.\n\n§R¡Valores altos pueden causar un pico de lag al inicio del juego!§!"
-  wrecked_warship_perc_desc_2:99 "This configures how many Wrecked Warships of a given type spawn. They can be repaired like Megastructures, granting a few ships for cheap. This does nothing if Wrecked Warships are disabled, overall, or as a given type.\n\n§RHigh values might cause a lag spike at game start!§!"
+  wrecked_warship_perc_desc_2:0 "Esto configura cuántas Naves de Guerra Destrozadas de un tipo dado aparecen. Pueden ser reparadas como Megaestructuras, otorgando algunas naves a bajo costo. Esto no tiene efecto si las Naves de Guerra Destrozadas están deshabilitadas, ya sea en general o para un tipo específico.\n\n§R¡Valores altos podrían causar un pico de lag al inicio del juego!§!"
   giga_ruined_ship_perc_high_enough:0 "Cualquier valor más alto y tu computadora se colapsará. Sí, lo probé. Se colapsa absolutamente si vas más allá."
   
   #Brain
@@ -17114,7 +17114,7 @@
   
   giga_list_additional_data:0 "§BDATOS ADICIONALES§!"
   
-  giga_galactic_core_aeternum_5:99 "£menu_aet_5£Aeternum (§YLux Aeternum§!)\nAeternum will be §Yinfinitely more powerful§!, receiving the same buffs as §ROmega Aeternum§!.\n\nIn addition to this, having managed to become a Champion but unwilling to go further, they will use §YOmega Components§! from the §YSecrets Beyond the Gates§! mod, granting them near-unlimited power.\n\n§BThey will awaken instantly\nDelaying their awakening will be impossible\nAiondia will be a powerful Birch Void Sphere\nPsykofabricators will be built much more frequently and have no cap instead of 10§!\n\n§RFOR USE WITH EXTREMELY POWERFUL MODS!\n\n$aeternum_spawn_mechanics$\n\n§HONLY AVAILABLE IF THE "ANCIENT CACHES OF TECHNOLOGIES" AND "SECRETS BEYOND THE GATES" MODS ARE ALSO ENABLED!§!"
+  giga_galactic_core_aeternum_5:0 "£menu_aet_5£Aeternum (§YLux Aeternum§!)\nEl Aeternum será §Yinfinitamente más poderoso§!, recibiendo los mismos beneficios que el §ROmega Aeternum§!.\n\nAdemás de esto, al haber logrado convertirse en un Campeón pero sin estar dispuesto a avanzar más, utilizarán §YComponentes Omega§! del mod §YSecretos Más Allá de las Puertas§!, otorgándoles un poder casi ilimitado.\n\n§BDespertarán instantáneamente\nRetrasar su despertar será imposible\nAiondia será una poderosa Esfera Void Birch\nLos Psicofabricadores se construirán con mucha más frecuencia y no tendrán límite en lugar de 10§!\n\n§R¡PARA USAR CON MODS EXTREMADAMENTE PODEROSOS!\n\n$aeternum_spawn_mechanics$\n\n§H¡DISPONIBLE ÚNICAMENTE SI LOS MODS "CACHÉS ANTIGUOS DE TECNOLOGÍAS" Y "SECRETOS MÁS ALLÁ DE LAS PUERTAS" ESTÁN TAMBIÉN ACTIVADOS!§!"
   
   aeternum_birch_world_acot:0 "Mundo Birch Precursor"
   aeternum_birch_world_acot_desc:0 "Este Mundo Birch es extremadamente antiguo y fue construido al menos hace un millón de años por una civilización precursora. Está construido con tecnologías fantásticamente avanzadas y ofrece condiciones de vida surrealistas a sus habitantes."
@@ -17690,11 +17690,11 @@
   flusion_arcology_modifier:0 "Flusio-Arcología"
   flusion_arcology_modifier_desc:0 "La Flusio-Arcología aprovecha al máximo los vastos recursos naturales de Flusion, para exprimir hasta la última gota de eficiencia del planeta. Las ciudades Katzen de Katown, Bundengrad y Teho se han expandido a proporciones gigantescas, albergando decenas de miles de millones de habitantes cada una, mientras que una red de autopistas de transporte hiper eficientes rodea todo el planeta."
   
-  d_flusio_arcology_administration:99 "Flusio-Arcology Administration"
-  d_flusio_arcology_administration_desc:99 "Administering the logistical nightmare that surrounds Flusion is no easy task. Due to the immense number of districts the Flusio-Arcology can support, more care must be taken to manage it properly."
+  d_flusio_arcology_administration:0 "Administración de la Flusio-Arcología"
+  d_flusio_arcology_administration_desc:0 "Administrar la pesadilla logística que rodea a Flusion no es una tarea fácil. Debido a la inmensa cantidad de distritos que puede soportar la Flusio-Arcología, se debe tener más cuidado para gestionarla adecuadamente."
   
   d_flusio_arcology_administration_tooltip:99 "[giga_flusion_administration_mechanics]"
-  giga_flusion_administration_virtual:99 "Increases ['concept_giga_virtual_colony_size'] by §Y+1§! for every §Y50§! £district£Districts built."
+  giga_flusion_administration_virtual:0 "Aumenta ['concept_giga_virtual_colony_size'] en §Y+1§! por cada §Y50§! £district£Distritos construidos."
   
   ezicania_partisans_0:0 "Canteras de Zuspri"
   ezicania_partisans_0_desc:0 "Las tierras de Zuspri son ricas en minerales valiosos que proporcionan grandes beneficios a las industrias de los Katzen, pero causarían escaseces críticas si las operaciones mineras fueran saboteadas."
@@ -18152,67 +18152,67 @@
   giga_tech_ringworld_buildings_desc:0 "Ahora que hemos construido espacios habitables verdaderamente colosales, ¿qué tal si simplemente... construimos edificios más grandes en ellos?\n\nPor supuesto, no es tan simple, pero el objetivo es alcanzable."
   
   #Specimens
-  garyx_collection:99 "Reptilian Reproduction Databank"
-  garyx_collection_desc_short:99 "A databank dedicated to the reproductive rituals of numerous reptilian species across the galaxy"
-  garyx_collection_desc_details:99 "With over two million hours of dedicated reptilian content, this databank enthralled Garyx to the point of leading the Squareworld to ruin. Why he became so enraptured by it however is a mystery we may never solve."
+  garyx_collection:0 "Base de Datos de Reproducción Reptiliana"
+  garyx_collection_desc_short:0 "Una base de datos dedicada a los rituales reproductivos de numerosas especies reptilianas en toda la galaxia"
+  garyx_collection_desc_details:0 "Con más de dos millones de horas de contenido reptiliano dedicado, esta base de datos cautivó a Garyx hasta el punto de llevar al Mundo Cuadrado a la ruina. Por qué se sintió tan atraído por ella sigue siendo un misterio que quizás nunca resolvamos."
   
-  meopa_detonator:99 "Meopa's Detonator"
-  meopa_detonator_desc_short:99 "A small metallic device bearing a big red button intended to launch the entirety of Katzenland's military arsenal"
-  meopa_detonator_desc_details:99 "Crafted with the greatest Katzenlandian craftmanship, this little device was intended to allow Meopa to rapidly react to a potential threat by enabling the immediate launching of Katzenlandian nuclear weaponry. Most however did not know that Meopa had it modified it so that a double-press would turn the nukes around towards Katzenland, presumably as to deny Katzenland from a potential invader. The mere fact the Katzenlandians entrusted full control of their arsenal to a singular leader speaks of the excessive devotion they held towards him, which would, of course, be their downfall."
+  meopa_detonator:0 "Detonador de Meopa"
+  meopa_detonator_desc_short:0 "Un pequeño dispositivo metálico con un gran botón rojo destinado a lanzar todo el arsenal militar de Katzenland"
+  meopa_detonator_desc_details:0 "Elaborado con la mejor artesanía de Katzenland, este pequeño dispositivo estaba destinado a permitir que Meopa reaccionara rápidamente ante una posible amenaza al habilitar el lanzamiento inmediato del arsenal nuclear de Katzenland. Sin embargo, la mayoría no sabía que Meopa lo había modificado para que una doble presión girara los misiles hacia Katzenland, presumiblemente para negarle a un posible invasor el acceso a Katzenland. El mero hecho de que los Katzenlandianos confiaran el control total de su arsenal a un solo líder habla de la devoción excesiva que sentían por él, lo que, por supuesto, sería su perdición."
   
-  aeternite_golem:99 "Aeternite Golem Head"
-  aeternite_golem_desc_short:99 "The gargantuan head of a fallen Aeternite Golem intended to guard Aiondia"
-  aeternite_golem_desc_details:99 "This vast crystalline construct dates back to the Golden Age of Aeternum and was likely a prototype for an Aeternite frontline unit. Of course, with Aeternum declining and stagnating, it was left to roam Aiondia's surface for the better part of a million years. It boasts incredible regenerative properties, with entire teams having to be dedicated towards keeping it from regrowing, which does incidentally represent a good source of crystals."
+  aeternite_golem:0 "Cabeza de Golem Aeternite"
+  aeternite_golem_desc_short:0 "La cabeza gigante de un Golem Aeternite caído destinado a proteger Aiondia"
+  aeternite_golem_desc_details:0 "Esta vasta construcción cristalina data de la Edad de Oro de Aeternum y probablemente fue un prototipo para una unidad de primera línea de Aeternite. Por supuesto, con el declive y el estancamiento de Aeternum, se dejó vagar por la superficie de Aiondia durante la mejor parte de un millón de años. Posee increíbles propiedades regenerativas, con equipos enteros dedicados a evitar que vuelva a crecer, lo cual, por cierto, representa una buena fuente de cristales."
   
-  planckeryons:99 "Planckeryon Sample"
-  planckeryons_desc_short:99 "Esoteric sub-planck particles with a variety of intriguing properties, most notably the ability to 'recode' themselves"
-  planckeryons_desc_details:99 "Aeternum experimented with the production of these potent particles during their Golden Age, but essentially shelved the project following their decline. From what we can gather, these particles possess the ability to recode their own properties, rendering them extraordinarily powerful if properly utilised. It seems that Aeternum however failed to move to the large-scale production of Planckeryons, something which we should most likely be grateful for."
+  planckeryons:0 "Muestra de Planckeryons"
+  planckeryons_desc_short:0 "Partículas subplanckianas exóticas con una variedad de propiedades intrigantes, destacando la capacidad de 'recodificarse' a sí mismas"
+  planckeryons_desc_details:0 "Aeternum experimentó con la producción de estas partículas potentes durante su Edad de Oro, pero esencialmente dejó de lado el proyecto tras su declive. Según lo que podemos deducir, estas partículas poseen la capacidad de recodificar sus propias propiedades, lo que las hace extraordinariamente poderosas si se utilizan adecuadamente. Parece que Aeternum, sin embargo, no avanzó hacia la producción a gran escala de Planckeryons, algo por lo que probablemente deberíamos estar agradecidos."
   
-  riesiger_blueprints:99 "Riesigerkatzenpanzer Blueprints"
-  riesiger_blueprints_desc_short:99 "The blueprints for the fearsome Riesigerkatzenpanzers employed by the Katzen armed forces"
-  riesiger_blueprints_desc_details:99 "Retrieved from the depths of their production center in Lionsburg, these blueprints explain in deep detail how to construct the mighty Riesigerkatzenpanzers. These monstrous vehicles serve both as mobile artillery platforms and as frontline units based on military needs, and are very similar to the 'Weltraumpanzers' employed the Katzen space fleets. Recent models have indeed merged both vehicles into one capable of operating both in space as warships and on the surface of planets as frontline troops."
+  riesiger_blueprints:0 "Planos de Riesigerkatzenpanzer"
+  riesiger_blueprints_desc_short:0 "Los planos de los temibles Riesigerkatzenpanzers empleados por las fuerzas armadas de Katzen"
+  riesiger_blueprints_desc_details:0 "Recuperados de las profundidades de su centro de producción en Lionsburg, estos planos explican en detalle cómo construir los poderosos Riesigerkatzenpanzers. Estos vehículos monstruosos sirven tanto como plataformas de artillería móvil como unidades de primera línea según las necesidades militares, y son muy similares a los 'Weltraumpanzers' empleados por las flotas espaciales de Katzen. Los modelos recientes han fusionado ambos vehículos en uno capaz de operar tanto en el espacio como naves de guerra como en la superficie de los planetas como tropas de primera línea."
   
-  slukatian_drive:99 "Slukatian FTL Drive"
-  slukatian_drive_desc_short:99 "An experimental FTL drive relying on previously unseen principles to leap across intergalactic space"
-  slukatian_drive_desc_details:99 "This device hails from another galaxy altogether, having been put together by the 'Slukatians' in an attempt to create the 'ultimate' FTL drive by combining existing technologies into something entirely new. It appears their attempt were a bit too successful, given the distance the probe travelled and their inability to retrieve it altogether. Interestingly enough, in addition to the Slukatians' own empire, the device bears faint mentions of an organisation referred to as the 'Grand (illegible) Federation'. Whatever relation they held towards the Slukatians is unknown."
+  slukatian_drive:0 "Unidad FTL Slukatian"
+  slukatian_drive_desc_short:0 "Una unidad FTL experimental que se basa en principios nunca antes vistos para saltar a través del espacio interestelar"
+  slukatian_drive_desc_details:0 "Este dispositivo proviene de otra galaxia, habiendo sido ensamblado por los 'Slukatians' en un intento de crear la unidad FTL 'definitiva' combinando tecnologías existentes en algo completamente nuevo. Parece que su intento fue un poco demasiado exitoso, dada la distancia que recorrió la sonda y su incapacidad para recuperarla. Curiosamente, además del propio imperio de los Slukatians, el dispositivo lleva vagas menciones de una organización a la que se refiere como la 'Grand (ilegible) Federation'. Cualquier relación que mantuvieran con los Slukatians es desconocida."
   
-  loris_katana:99 "Kattensbach Katana"
-  loris_katana_desc_short:99 "An ancient Katzen Katana previously belonging to Loris von Kattensbach, retrieved from the rubble of the Bundeshalle"
-  loris_katana_desc_details:99 "Forged by the finest Katzen warsmiths back in pre-gunpowder times, this katana has been passed down for generations within the von Kattensbach family. On it is inscribed the name of every Katzen to have inherited it, going back over two thousand years and ending with Loris himself. While it is unlikely to have seen actual combat, it nonetheless stands as a timeless symbol of Katzen military traditions."
+  loris_katana:0 "Katana de Loris von Kattensbach"
+  loris_katana_desc_short:0 "Una antigua katana Katzen que perteneció a Loris von Kattensbach, recuperada de los escombros del Bundeshalle"
+  loris_katana_desc_details:0 "Forjada por los mejores herreros de Katzen en tiempos pre-pólvora, esta katana ha sido transmitida durante generaciones en la familia von Kattensbach. En ella está inscrito el nombre de cada Katzen que la heredó, remontándose más de dos mil años y terminando con el propio Loris. Aunque es poco probable que haya visto combate real, sigue siendo un símbolo atemporal de las tradiciones militares de Katzen."
   
-  meopian_expedition_chunk:99 "Meopian Expedition Chunk"
-  meopian_expedition_chunk_desc_short:99 "A chunk of the 'Meopian Expedition I' colony ship which carried Katzens across interstellar space, retrieved from Flusion's surface"
-  meopian_expedition_chunk_desc_details:99 "The Meopian Expeditions were a set of vessels sent by the former Katzenlandian king, Meopa, intended to colonize numerous planets with Katzens and Zuspris over ten thousand years ago. While the first of these ships ended up on Flusion, archeological data indicates that twelve of these ships were launched. Their ultimate fates are unknown."
+  meopian_expedition_chunk:0 "Fragmento de la Expedición Meopian"
+  meopian_expedition_chunk_desc_short:0 "Un fragmento de la nave colonial 'Meopian Expedition I' que transportó a los Katzens a través del espacio interestelar, recuperado de la superficie de Flusion"
+  meopian_expedition_chunk_desc_details:0 "Las Expediciones Meopian fueron un conjunto de naves enviadas por el antiguo rey de Katzenland, Meopa, con la intención de colonizar numerosos planetas con Katzens y Zuspris hace más de diez mil años. Aunque la primera de estas naves terminó en Flusion, los datos arqueológicos indican que se lanzaron doce de estas naves. Sus destinos finales son desconocidos."
   
-  soulbot_fragment:99 "Roqualian Soulgem"
-  soulbot_fragment_desc_short:99 "A 'Soulgem' of Roqualian design, apparently capable of binding a genuine organic soul to a machine body. Its inner workings are unknown"
-  soulbot_fragment_desc_details:99 "These incredible technological marvels enable the Roqualians to fabricate 'soulbots' - machine chassis connected to a soul, granting them true sapience without the need for complicated AI systems, and allowing for a 'second chance' to be given to the most unlucky. Their design is far beyond what the Roqualians could have been able to manufacture, hinting that they were likely reverse-engineered by a precursor civilization which previously visited Flusion."
+  soulbot_fragment:0 "Gema del Alma Roqualian"
+  soulbot_fragment_desc_short:0 "Una 'Gema del Alma' de diseño Roqualian, aparentemente capaz de unir un alma orgánica genuina a un cuerpo mecánico. Su funcionamiento interno es desconocido"
+  soulbot_fragment_desc_details:0 "Estas increíbles maravillas tecnológicas permiten a los Roqualians fabricar 'soulbots': chasis mecánicos conectados a un alma, otorgándoles verdadera sapiencia sin la necesidad de sistemas de IA complicados y permitiendo una 'segunda oportunidad' a los menos afortunados. Su diseño está muy por encima de lo que los Roqualians podrían haber sido capaces de fabricar, lo que sugiere que fueron ingeniería inversa por una civilización precursora que anteriormente visitó Flusion."
   
-  dead_chablokk:99 "Ancient Chablokk Suit"
-  dead_chablokk_desc_short:99 "A robotic exoskeleton meant to surround the body of a Chablokk to enhance their capabilities"
-  dead_chablokk_desc_details:99 "The Chablokks' brutal fight with the gargantuan psionic Paluushes forced them into a cycle of rapid technological innovation and military iteration. These advanced robotic suits were developed as a way to enhance their lackluster physical performances, as well as enable them to more easily interface with technology. This process of technological integration would continue until their eventual transformation into the Blokkats of today."
+  dead_chablokk:0 "Traje Exoesqueleto Antiguo Chablokk"
+  dead_chablokk_desc_short:0 "Un exoesqueleto robótico destinado a rodear el cuerpo de un Chablokk para mejorar sus capacidades"
+  dead_chablokk_desc_details:0 "La brutal lucha de los Chablokks con los gigantescos psiónicos Paluushes los obligó a un ciclo de rápida innovación tecnológica y iteración militar. Estos avanzados trajes robóticos se desarrollaron como una forma de mejorar sus deficientes actuaciones físicas, así como permitirles interactuar más fácilmente con la tecnología. Este proceso de integración tecnológica continuaría hasta su eventual transformación en los Blokkats de hoy."
   
-  meopium:99 "Nuke-Forged Soil"
-  meopium_desc_short:99 "A chunk of Katzenlandian soil bearing exotic alloys forged in nuclear hellfire"
-  meopium_desc_details:99 "The furious rain of nuclear ordnance which marred Katzenland's surface resulted in the creation of new and highly-radioactive alloys embedded within parts of the planet's upper crust. They alone represent a significant source of heat and radiation keeping the planet uninhabitable for millennia to come."
+  meopium:0 "Suelo Forjado en el Núcleo"
+  meopium_desc_short:0 "Un fragmento de suelo Katzenlandiano que contiene aleaciones exóticas forjadas en el infierno nuclear"
+  meopium_desc_details:0 "La furiosa lluvia de fuego nuclear que marcó la superficie de Katzenland resultó en la creación de nuevas y altamente radiactivas aleaciones incrustadas dentro de partes de la corteza superior del planeta. Ellas solas representan una fuente significativa de calor y radiación que mantendrá el planeta inhabitable por milenios."
   
-  kaiser_plans:99 "Incomplete Katzen Schematics"
-  kaiser_plans_desc_short:99 "Unfinished schematics belonging to Kaiser Kattail, describing advanced structures which are sometimes more advanced than what the Katzens were known to be able to construct"
-  kaiser_plans_desc_details:99 "Retrieved from a heavily-fortified storage room beneath the Kaiser's office, these plans contain partial information and early schematics for vast planetary projects and megastructures. They were apparently drawn up in secret by a number of renowned Katzen scientists and engineers, who presumably sent them to the Kaiser for approval. Curiously enough, some of these aforementioned bright Katzen minds appear to have completely forged identities inserted into official civil records, indicating that they might partially ficticious. This thus raises the question as to who actually created these plans."
+  kaiser_plans:0 "Esquemas Incompletos de Katzen"
+  kaiser_plans_desc_short:0 "Esquemas incompletos pertenecientes a Kaiser Kattail, que describen estructuras avanzadas que a veces son más avanzadas de lo que se sabía que los Katzens eran capaces de construir"
+  kaiser_plans_desc_details:0 "Recuperados de una sala de almacenamiento fuertemente fortificada debajo de la oficina del Kaiser, estos planos contienen información parcial y esquemas tempranos para vastos proyectos planetarios y megaconstrucciones. Aparentemente, fueron elaborados en secreto por un número de renombrados científicos e ingenieros de Katzen, quienes presumiblemente los enviaron al Kaiser para su aprobación. Curiosamente, algunas de estas brillantes mentes de Katzen mencionadas parecen haber insertado identidades completamente ficticias en los registros civiles oficiales, lo que sugiere que podrían ser parcialmente ficticias. Esto plantea la pregunta de quién realmente creó estos planos."
   
-  pouchkinn_device:99 "Pouchkinnian Temporal Device"
-  pouchkinn_device_desc_short:99 "A device which utilizes a strange purple gas to grant partial precognition to its user, at the cost of some mental sanity"
-  pouchkinn_device_desc_details:99 "Amongst the many experiments found in Pouchkinn's laboratories, this one is certainly amongst the most intriguing. It seems to 'charge' some sort of psionic gas, allowing it to induce otherwordly visions of one's fate, and thus possibly take pre-emptive action. It was quite possibly utilized by Pouchkinn to optimize his research, but the visions tend to be so cryptic that they are essentially unusable by untrained personal."
+  pouchkinn_device:0 "Dispositivo Temporal de Pouchkinn"
+  pouchkinn_device_desc_short:0 "Un dispositivo que utiliza un extraño gas púrpura para otorgar precognición parcial a su usuario, a costa de algo de cordura mental"
+  pouchkinn_device_desc_details:0 "Entre los muchos experimentos encontrados en los laboratorios de Pouchkinn, este es ciertamente uno de los más intrigantes. Parece 'cargar' algún tipo de gas psiónico, permitiéndole inducir visiones de otro mundo del destino de uno, y así posiblemente tomar medidas preventivas. Probablemente fue utilizado por Pouchkinn para optimizar su investigación, pero las visiones tienden a ser tan crípticas que son esencialmente inútiles para el personal no capacitado."
   
-  kaiser_moon_core:99 "Kaiser Moon Megareactor Chunk"
-  kaiser_moon_core_desc_short:99 "This gargantuan reactor chunk once provided untold power to the Kaiser Moon"
-  kaiser_moon_core_desc_details:99 "The power necessary to move an entire celestial body through the heavens is nothing short of phenomenal. As such, countless such megareactors were employed by the Kaiser Moon to provide energy to its vast array of gravitic thrusters and relativistic railguns. They mostly used antimatter-catalyzed fusion, which, while not the most advanced of methods, is relatively easy to scale up to the sizes necessary to run an entire moon, and far less prone to catastrophic failures than antimatter power plants."
+  kaiser_moon_core:0 "Fragmento del Megareactor de la Luna Kaiser"
+  kaiser_moon_core_desc_short:0 "Este fragmento gigante de un reactor proporcionó un poder inimaginable a la Luna Kaiser"
+  kaiser_moon_core_desc_details:0 "El poder necesario para mover un cuerpo celeste completo a través de los cielos no es nada menos que fenomenal. Como tal, innumerables megareactores de este tipo fueron empleados por la Luna Kaiser para proporcionar energía a su vasta serie de propulsores gravitacionales y cañones de riel relativistas. Principalmente utilizaban fusión catalizada por antimateria, que, aunque no es el más avanzado de los métodos, es relativamente fácil de escalar a las magnitudes necesarias para operar una luna entera y mucho menos propenso a fallos catastróficos que las plantas de energía de antimateria."
   
-  blokkat_core:99 "Blokkwork Receiver"
-  blokkat_core_desc_short:99 "The nearly intact and miraculously stable Blokkwork receiver of a Blokkframe"
-  blokkat_core_desc_details:99 "Blokkframes are multipurpose chassis designed to easily enable a Blokkat to interact with reality. This component plays the crucial role of connecting the Blokkat to the Blokkwork, allowing it to remain synchronized with the rest of Blokkat civilization."
+  blokkat_core:0 "Receptor Blokkwork"
+  blokkat_core_desc_short:0 "El receptor Blokkwork casi intacto y milagrosamente estable de un Blokkframe"
+  blokkat_core_desc_details:0 "Los Blokkframes son chasis multipropósito diseñados para permitir que un Blokkat interactúe fácilmente con la realidad. Este componente desempeña el papel crucial de conectar al Blokkat con el Blokkwork, permitiéndole permanecer sincronizado con el resto de la civilización Blokkat."
   
-  wilzystellaquis:99 "Wilzy - Stellaquis"
+  wilzystellaquis:0 "Wilzy - Stellaquis"
   
   #################################
   # Debug #########################
@@ -18287,9 +18287,9 @@
   
   megastructure_build:99 "debug"
   megastructure:99 "debug"
-  must_have_user_preset_mod:99 "$TRIGGER_FAIL$§RMust have the User preset submod§!\n$t$-Can be acquired from our §YDiscord§! server."
+  must_have_user_preset_mod:0 "$TRIGGER_FAIL$§RDebe tener el submod de configuración del Usuario§!\n$t$-Se puede adquirir en nuestro servidor de §YDiscord§!."
   
-  gigaLabel_01:0 "§EPulsa CONFIRMAR CONFIG para jugar con las opciones elegidas§!"
+  gigaLabel_01:0 "§ECONFIRMAR CONFIG para jugar con las opciones elegidas§!"
   gigaLabel_02:0 "§ESolo se pueden limitar Megaestructuras al inicio del juego.§!"
   gigaLabel_03:0 "§EIlimitar MegasEst causa un desequilibrio grave en el juego.§!"
   gigaLabel_04:0 "§EEs posible seleccionar un Preajuste y luego personalizarlo.§!"

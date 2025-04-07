@@ -37,7 +37,7 @@
   # origin
   origin_frameworld:0 "Mundo Nexo"
   origin_frameworld_desc:0 "Esta civilización altamente centralizada habita un complejo expansivo de estaciones orbitales construido por sus antepasados en el pasado distante. Expandirlo aún más podría traerles grandes beneficios, pero perderlo los destruiría por completo."
-  origin_tooltip_frameworld_effects:0 "- Comienza con un §H$pc_giga_frameworld$§! (Tamaño: £planetsize£ §Y16§!) como tu mundo natal\n- El §H$pc_giga_frameworld$§! puede expandirse para proporcionar bonificaciones y agregar Distritos Máximos adicionales mediante la recolección de asteroides o la promulgación de Decisiones especiales\n- Puede investigar varios £district£ §H$pc_giga_frameworld$ Distritos§! únicos que son iguales a los edificios avanzados\n- Puede construir §H$giga_frameworld_outpost_plural$§! en Mundos Habitable para recibir poderosas bonificaciones\n- Varias Tecnologías y Ventajas de Ascenso relacionadas con Planetas Habitable y Megaestructuras proporcionan bonificaciones alternativas\n§R- Incapaz de construir Naves de Colonia o tener colonias\n- Las poblaciones de mundos conquistados serán reasentadas por la fuerza en el $pc_giga_frameworld$ cuando estén en paz o después de 5 años§!\n "
+  origin_tooltip_frameworld_effects:0 "- Comienza con un §H$pc_giga_frameworld$§! (Tamaño: £planetsize£ §Y16§!) como tu mundo natal\n- El §H$pc_giga_frameworld$§! puede expandirse para proporcionar bonificaciones y agregar Distritos Máximos adicionales mediante la recolección de asteroides o la promulgación de Decisiones especiales\n- Puede investigar varios £district£ Distritos §H$pc_giga_frameworld$§! únicos que son iguales a los edificios avanzados\n- Puede construir §H$giga_frameworld_outpost_plural$§! en Mundos Habitable para recibir poderosas bonificaciones\n- Varias Tecnologías y Ventajas de Ascenso relacionadas con Planetas Habitable y Megaestructuras proporcionan bonificaciones alternativas\n§R- Incapaz de construir Naves de Colonia o tener colonias\n- Las poblaciones de mundos conquistados serán reasentadas por la fuerza en el $pc_giga_frameworld$ cuando estén en paz o después de 5 años§!\n "
   
   # system initialiser
   giga_frameworld_system_NAME:0 "Mundo Nexo"
@@ -847,12 +847,12 @@
   frameworld_defense_army_desc:0 "Unidades defensivas especializadas en las condiciones únicas que presenta la lucha en y alrededor de la construcción ecléctica de $pc_giga_frameworld$."
   
   frameworld_defense_army_machine:99 "$pc_giga_frameworld$ $machine_defense$"
-  frameworld_defense_army_machine_plural:99 "$pc_giga_frameworld$ Drone Grids"
-  frameworld_defense_army_machine_desc:99 "Defensive units specialized to the unique conditions presented by fighting on and around the eclectic construction of the $pc_giga_frameworld$."
+  frameworld_defense_army_machine_plural:0 "$pc_giga_frameworld$ Redes de Drones"
+  frameworld_defense_army_machine_desc:0 "Unidades defensivas especializadas en las condiciones únicas que se presentan al combatir en y alrededor de la ecléctica construcción del $pc_giga_frameworld$."
   
   frameworld_defense_army_individualist_machine:99 "$pc_giga_frameworld$ $individual_machine_defense$"
   frameworld_defense_army_individualist_machine_plural:99 "$pc_giga_frameworld$ $individual_machine_defense_plural$"
-  frameworld_defense_army_individualist_machine_desc:99 "Defensive units specialized to the unique conditions presented by fighting on and around the eclectic construction of the $pc_giga_frameworld$."
+  frameworld_defense_army_individualist_machine_desc:0 "Unidades defensivas especializadas en las condiciones únicas que se presentan al combatir en y alrededor de la singular construcción del $pc_giga_frameworld$."
   
   frameworld_maginot_defense_army:0 "Cluster de Defensa Maginot"
   frameworld_maginot_defense_army_plural:0 "Clusters de Defensa Maginot"
