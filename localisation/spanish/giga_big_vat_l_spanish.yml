@@ -42,7 +42,7 @@
   the_vat_4_DESC:0 "Este es el vat de clonación más grande de su tipo, capaz de crear numerosos clones masivos. Con 6 vats auxiliares y un vat primario gargantuan, esta instalación está completamente lista para clonar flotas enteras de abominaciones gigantes."
   
   the_vat_menu_title:0 "§EVat de Crecimiento Biológico Impetuoso§!"
-  the_vat_menu_desc:0 "---------------------------------------------------------------\nEl §cB.I.G. Vat§! es un astillero biológico. Cada tanque solo puede desarrollar una nave orgánica a la vez.\nLa fauna espacial clonada será de rareza §B$common$§! y debe ser mejorada en una base estelar para obtener bonificaciones de rareza."
+  the_vat_menu_desc:0 "---------------------------------------------------------------\nEl §cB.I.G. Vat§! es un astillero biológico. Se selecciona un diseño aleatorio al clonar fauna; tenlo en cuenta si deseas evitar costos de readaptación."
   
   
   the_vat_menu_01:0 "§HVat Primario§!"
